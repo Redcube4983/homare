@@ -22,7 +22,7 @@ Template Name: premium-fl
 日本酒をリッチに90％配合し、<br class="sp" />
 年齢とともに気になる「たるみ」にアプローチ。<br/>
 年齢を重ねた肌をハリとうるおいで満たし、<br class="sp" />
-エイジレスな肌に導きます。</p>
+エイジレス<sup>※2</sup>な肌に導きます。</p>
 </section>
 <section class="premium-fl-sec1">
 <div class="premium-fl-point">
