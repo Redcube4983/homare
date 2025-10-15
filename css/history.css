@@ -1,0 +1,423 @@
+@charset "UTF-8";
+
+/*******************************
+  ほまれ酒造の軌跡
+*******************************/
+.image-header{
+	background-blend-mode: multiply;
+	background-color: #999999;
+	background-image: url(../images/about/eyecatch.jpg);	
+}
+.image-header{
+  background-image: url(../images/about/eyecatch2.jpg)\9; /* IE10以下 */
+}
+@media all and (-ms-high-contrast: none){
+.image-header{
+   background-image: url(../images/about/eyecatch2.jpg); /* IE10以上 */
+  }
+}
+@supports (-ms-ime-align: auto) and (not (-webkit-text-stroke: initial)){
+.image-header{
+   background-image: url(../images/about/eyecatch2.jpg); /* Edge12〜14 */
+  }
+}
+@supports (-ms-ime-align: auto) {
+.image-header{
+   background-image: url(../images/about/eyecatch2.jpg); /* Edge12+（Edge全て） */
+  }
+}
+.page-catchcopy {
+    position: absolute;
+    right: 0;
+    bottom: 55%;
+    left: 0;
+    text-align: center;
+    font-size: 3vw;
+    margin: 0;
+    font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+.image-header .page-title {
+    top: 48%;
+    font-size: 6vw;
+    bottom: auto;
+    transform: none;
+    font-weight: normal;
+    letter-spacing: 5px;
+}
+.history-intro h2 {
+	color: #AE924F;
+	font-size: 30px;
+	font-size: 5vw;
+	text-align: center;
+	font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	letter-spacing: 0px;
+	line-height: 1.5;
+    font-weight: normal;
+}
+.history-intro p {
+    width: auto;
+    margin: 0 0 30px;
+    color: #AE924F;
+    font-size: 3.2vw;
+    letter-spacing: 2px;
+    line-height: 5vw;
+	text-align: center;
+	font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+.history-list {
+  margin: 55px 0 10px;
+}
+.history-list h2 {
+    text-align: center;
+    font-size: 4.6875vw;
+    line-height: 4.6875vw;
+    margin: 0 auto 18.75vw;
+    color: #AE924F;
+    font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+    letter-spacing: .5em;
+}
+.history-list h2 img {
+  display: block;
+  width: 25%;
+  height: auto;
+  fill: #9D814F;
+  margin: 0 37.5%;
+}
+.history-list h2 span {
+  display: block;
+  font-size: 4vw;
+  margin: 15px 0;
+  font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+.history-list figure {
+  margin: 0 20px;
+  font-size: 0;
+}
+.history-list figure img {
+  width: 50%;
+  height: auto;
+}
+.history-list dl {
+  margin: 50px 30px 0;
+  border-top: 2px solid #9D814F;
+  border-bottom: 2px solid #9D814F;
+}
+.history-list dt {
+  color: #9D814F;
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+  padding: 30px 0 15px;
+}
+.history-list dl {
+    margin: 7.8125vw 20px 0;
+    border-top: 2px solid #AE924F;
+    border-bottom: 2px solid #AE924F;
+}
+.history-list dt {
+    color: #AE924F;
+    font-size: 5vw;
+    line-height: 5vw;
+    padding: 3vw 0 1vw;
+	font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+.history-list dt:not(:first-child) {
+  border-top: 1px dotted #fff;
+  margin-top: 0px;
+}
+.history-list dd {
+    font-size: 3.8vw;
+    line-height: 5.46875vw;
+    color: #fff;
+    margin: 0;
+    padding: 0 0 3vw;
+    position: relative;
+}
+.history-list dd p {
+	text-indent: 1em;
+	margin: 0;
+	font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+.history-list dd img {
+  display: none;
+}
+.homare-btn-list a {
+    display: block;
+    background-color: #AE924F;
+    text-align: center;
+    font-size: 3.5vw;
+    text-decoration: none;
+    color: #000;
+    font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	padding: 1% 0;
+	font-weight: bold;
+}
+.homare-btn-list a img {
+    width: 40px;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 5px;
+    fill: #000;
+    margin-top: -6px;
+}
+.homare-btn-list li:not(:last-child) {
+    margin-right: 20px;
+}
+@media screen and (min-width: 768px) {
+.history-list {
+    margin: 55px 0 20px;
+}
+.history-intro  h2 {
+    color: #AE924F;
+    font-size: 30px;
+    font-size: 3.0rem;
+    text-align: center;
+    font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	letter-spacing: 5px;
+}
+.history-intro p {
+    font-size: 21pt;
+    line-height: 1.76;
+    font-size: 21px;
+	letter-spacing: 5px;
+}
+.history-list h2 {
+    text-align: center;
+    font-size: 3.0rem;
+    line-height: 3.0rem;
+    margin: 0 auto 125px;
+    color: #9D814F;
+    font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+    letter-spacing: 10px;
+}
+.history-list dt {
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+    padding: 30px 0 15px;
+    text-shadow: 0 0 1px #000;
+}
+.history-list dd {
+    font-size: 2.2rem;
+    line-height: 3.2rem;
+    padding: 0 0 15px;
+    text-shadow: 0 0 1px #000;
+}
+.history-list figure {
+  margin: 0 20px;
+  font-size: 0;
+}
+.history-list figure img {
+  width: 50%;
+  height: auto;
+}
+.history-list dl {
+    margin: 50px 20px 0;
+  }
+.history-list dd p {
+    text-indent: 1em;
+    margin: 0;
+}
+.history-list h2 svg {
+    display: block;
+    width: 180px;
+    height: auto;
+    fill: #9D814F;
+    margin: 0 auto;
+}
+}
+@media screen and (min-width: 920px) {
+.image-header .page-catchcopy {
+    position: absolute;
+    right: 0;
+    bottom: 55%;
+    left: 0;
+    text-align: center;
+    font-size: 28px;
+    margin: 0;
+    font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+.image-header .page-title {
+    top: 50%;
+    font-size: 50px;
+}
+.page-title {
+    position: absolute;
+    bottom: 25%;
+    right: 0;
+    left: 0;
+    text-align: center;
+    font-size: 4.8rem;
+    transform: translateY(-50%);
+    margin: 0;
+	font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;	
+}
+.history-list {
+    margin: 55px 0 20px;
+}
+.history-list dt {
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+    padding: 30px 0 15px;
+    text-shadow: 0 0 1px #000;
+}
+.history-list dd {
+    font-size: 2.2rem;
+    line-height: 3.2rem;
+    padding: 0 0 15px;
+    text-shadow: 0 0 1px #000;
+}
+.history-list dd p {
+    text-indent: 1em;
+    margin: 0;
+}
+.history-list h2 {
+  text-align: center;
+  font-size: 3.0rem;
+  line-height: 3.0rem;
+  margin: 0 auto 125px;
+  color: #9D814F;
+  font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+  letter-spacing: 10px;
+}
+.history-list h2 svg {
+    display: block;
+    width: 180px;
+    height: auto;
+    fill: #9D814F;
+    margin: 0 auto;
+}
+.history-intro  h2 {
+    color: #AE924F;
+    font-size: 30px;
+    font-size: 3.0rem;
+    text-align: center;
+    font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+.history-intro p {
+    font-size: 21pt;
+    line-height: 1.76;
+    font-size: 21px;
+	letter-spacing: 5px;
+}
+.homare-btn-list li a {
+    font-size: 26px;
+    line-height: 1.4;
+    padding-top: 10px;
+    padding-bottom: 15px;
+	letter-spacing: 2px;
+}
+.homare-btn-list a svg {
+    width: 28px;
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 10px;
+    fill: #000;
+    margin-top: -5px;
+}
+.homare-btn-list li:not(:last-child) {
+    margin-right: 40px;
+}
+.history-list dd {
+  font-size: 21px;
+  line-height: 3.2rem;
+  color: #fff;
+  margin: 0;
+  padding: 0px 0 30px;
+  position: relative;
+}
+.history-list figure {
+  margin: 0 0px;
+  font-size: 0;
+}
+ .history-list figure img {
+    width: 250px;
+    height: 175px;
+  }
+.history-list dl {
+    margin: 50px 0 0;
+  }
+.history-list dd img {
+    display: block;
+    position: absolute;
+  }
+.history-list h2 span {
+    display: block;
+    font-size: 20px;
+    margin: 15px 0;
+    font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+.history-list h2 {
+  text-align: center;
+  font-size: 3.0rem;
+  line-height: 3.0rem;
+  margin: 0 auto 125px;
+  color: #9D814F;
+  font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+  letter-spacing: 10px;
+}
+  .history-list dd:nth-of-type(2) img {
+    right: 0;
+    bottom: -80px;
+  }
+  .history-list dd:nth-of-type(3) img {
+    right: 130px;
+    bottom: -30px;
+  }
+  .history-list dd:nth-of-type(4) img {
+    right: 0;
+    bottom: -20px;
+  }
+  .history-list dd:nth-of-type(6) img {
+    right: 0;
+    bottom: -90px;
+  }
+  .history-list dd:nth-of-type(9) img {
+    right: 200px;
+    bottom: -90px;
+  }
+  .history-list dd:nth-of-type(11) img {
+    right: 0;
+    bottom: -70px;
+  }
+  .history-list dd:nth-of-type(13) img {
+    right: 200px;
+    bottom: -30px;
+  }
+  .history-list dd:nth-of-type(14) img {
+    right: 0;
+    bottom: -30px;
+  }
+  .history-list dd:nth-of-type(16) img {
+    right: 300px;
+    bottom: -70px;
+  }
+  .history-list dd:nth-of-type(17) img {
+    right: 0;
+    bottom: -90px;
+  }
+  .history-list dd:nth-of-type(18) img {
+    right: 220px;
+    bottom: -90px;
+  }
+  .history-list dd:nth-of-type(19) img {
+    right: 0;
+    bottom: -90px;
+  }
+  .history-list dd:nth-of-type(22) img {
+    right: 200px;
+    bottom: -90px;
+  }
+ .history-list dd:nth-of-type(24) img {
+    right: 200px;
+    bottom: -90px;
+  }
+  .history-list dd:nth-of-type(25) img {
+    right: 0;
+    bottom: -50px;
+  }
+  .history-list dd:nth-of-type(28) img {
+    right: 0;
+    bottom: 5px;
+	width: 140px;
+  }
+}
+

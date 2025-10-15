@@ -1,0 +1,137 @@
+@charset "UTF-8";
+/* CSS Document */
+main {
+    color: #fff;
+    display: block;
+    margin: 80px 00px 0;
+}
+.company-overview{
+	margin: 0 20px;
+}
+.image-header, .simple-header {
+    width: 100vw;
+    height: 50vw;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    margin: 0 00px;
+}
+.simple-header {
+    height: 31.25vw;
+}
+.breadcrumb ul {
+    list-style: none;
+    margin: 0;
+    padding: 5px 20px;
+    overflow: hidden;
+    width: 100vw;
+}
+.simple-header .breadcrumb ul {
+	background-color: #383838;
+}
+.simple-header .page-title {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    text-align: center;
+    font-size: 6vw;
+    margin: 0;
+    font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+	letter-spacing: 10px;
+	font-weight: normal;
+}
+section{
+	padding: 0 15px;
+}
+section p {
+	text-align: center;
+	font-size: 1.6rem;
+    line-height: 2;
+}
+section a {
+    color: #a4811b;
+}
+.pc {
+    display: none!important;
+}
+.sp {
+    display: block!important;
+}
+@media screen and (min-width: 768px) {
+main {
+    color: #fff;
+    display: block;
+    margin: 80px 00px 0;
+}
+.company-overview {
+    margin: 0 20px;
+}
+.simple-header {
+    height: 160px;
+}
+.page-title {
+    top: 45%;
+    font-size: 48px;
+    font-size: 4.8rem;
+}
+.simple-header .page-title {
+    font-size: 32px;
+	letter-spacing: 15px;
+}
+section{
+	padding: 0 30px;
+}
+section p {
+	text-align: center;
+	font-size: 1.6rem;
+}
+.pc {
+    display: block!important;
+}
+.sp {
+    display: none!important;
+}
+}
+@media screen and (min-width: 920px) {
+main {
+    width: 1000px;
+    margin: 0 auto;
+}
+main::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.company-overview {
+    margin: 0 00px;
+}
+.image-header, .simple-header {
+    width: 1000px;
+    height: 400px;
+    margin: 0 -200px;
+    padding: 0 200px;
+}
+.simple-header {
+    height: 160px;
+}
+.page-title {
+    top: 45%;
+    font-size: 48px;
+    font-size: 4.8rem;
+}
+.simple-header .page-title {
+    font-size: 32px;
+	letter-spacing: 15px;
+}
+section p {
+	text-align: center;
+	font-size: 1.6rem;
+}
+.pc {
+    display: block!important;
+}
+.sp {
+    display: none!important;
+}
+}

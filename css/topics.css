@@ -1,0 +1,285 @@
+@charset "UTF-8";
+/* CSS Document */
+main {
+    color: #fff;
+    display: block;
+    margin: 80px 00px 0;
+}
+.sd-sharing{
+	display: none;
+}
+.topics-list{
+	margin: 0 20px;
+}
+.topics-list a {
+    color: #AE924F;
+    font-size: 2.8125vw;
+}
+.topics-list article {
+    margin: 4.6875vw 0;
+    padding-bottom: 4.6875vw;
+    border-bottom: 1px dotted #fff;
+}
+.label-notice {
+    color: #fff;
+    background-color: #A8272D;
+}
+.topics-list time {
+    margin-left: 1em;
+    text-decoration: underline;
+}
+.topics-list h2 {
+    font-size: 3.75vw;
+    margin: 0.78125vw 0;
+    text-decoration: underline;
+}
+.topics-list p {
+    font-size: 2.8125vw;
+    margin: 0;
+}
+.company-overview{
+	margin: 0 20px;
+}
+.image-header, .simple-header {
+    width: 100vw;
+    height: 50vw;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    margin: 0 00px;
+}
+.simple-header {
+    height: 31.25vw;
+}
+.breadcrumb ul {
+    list-style: none;
+    margin: 0;
+    padding: 5px 20px;
+    overflow: hidden;
+    width: 100vw;
+}
+.simple-header .breadcrumb ul {
+	background-color: #383838;
+}
+.simple-header .page-title {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    text-align: center;
+    font-size: 6vw;
+    margin: 0;
+    font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+	letter-spacing: 10px;
+	font-weight: normal;
+}
+.heading-02 {
+    font-size: 3.75vw;
+    height: 5.625vw;
+    line-height: 5.625vw;
+    background-color: #AE924F;
+    color: #000;
+    text-align: center;
+}
+.topics-list div{
+	margin-top: 20px;
+}
+.topics-list div ul{
+	text-align: center;
+	padding: 0;
+}
+.topics-list div ul li{
+	display: inline-block;
+	width: 4.5vw;
+	height: auto;
+	margin-right: 4px;
+}
+.topics-list div ul li:last-child{
+	margin-right: 0px;
+}
+.topics-list .page-numbers {
+    width: 100%;
+    font-size: 3vw;
+    color: #000;
+    background-color: #AE924F;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    height: 100%;
+}
+.topics-list .page-numbers:hover{
+	background-color: rgba(191,168,114,1.00);
+}
+.topics-list .current {
+    background-color: #fff;
+	color: #000;
+}
+.topics-list .current:hover{
+	background-color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+main {
+    color: #fff;
+    display: block;
+    margin: 80px 00px 0;
+}
+.topics-list div ul li{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	margin-right: 4px;
+}
+.company-overview {
+    margin: 0 20px;
+}
+.simple-header {
+    height: 160px;
+}
+.page-title {
+    top: 45%;
+    font-size: 48px;
+    font-size: 4.8rem;
+}
+.simple-header .page-title {
+    font-size: 32px;
+	letter-spacing: 15px;
+}
+.label-notice {
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    color: #fff;
+    background-color: #A8272D;
+    padding: 1% 2%;
+    border-radius: 2px;
+}
+.heading-02 {
+    font-size: 24px;
+    height: 36px;
+    line-height: 36px;
+}
+.table-wrap {
+    border: solid 20px #fff;
+    box-sizing: border-box;
+}
+.company-overview th, .company-overview td, .company-overview td p {
+    text-align: left;
+	line-height: 1.4;
+}
+.table-wrap th {
+    width: 200px!important;
+}
+.table-wrap th {
+    display: table-cell;
+    padding: 25px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    border: 1px solid #838383;
+        border-left-width: 1px;
+        border-left-style: solid;
+        border-left-color: rgb(131, 131, 131);
+    border-left: none;
+    vertical-align: top;
+    font-weight: normal;
+    box-sizing: border-box;
+}
+.table-wrap td {
+    display: table-cell;
+    padding: 13px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    border: 1px solid #838383;
+        border-right-width: 1px;
+        border-right-style: solid;
+        border-right-color: rgb(131, 131, 131);
+    border-right: none;
+    box-sizing: border-box;
+}
+.table-wrap p, .table-wrap input, .table-wrap select, .table-wrap textarea {
+    margin: 7px 0;
+}
+.company-overview th, .company-overview td, .company-overview td p {
+    text-align: left;
+}
+.company-overview th, .company-overview td, .company-overview td p {
+    text-align: left;
+}
+.company-access{
+	margin: 70px 20px 0;	
+	padding-top: 0px;
+}	
+}
+@media screen and (min-width: 920px) {
+main {
+    width: 1000px;
+    margin: 0 auto;
+}
+main::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.topics-list{
+	margin: 0 0px;
+}
+.topics-list article {
+    margin: 10px 0;
+    padding-bottom: 10px;
+}
+.topics-list a {
+    font-size: 12px;
+    font-size: 1.2rem;
+}
+.topics-list h2 {
+    font-size: 16px;
+    margin: 5px 0;
+}
+.topics-list p {
+    font-size: 14px;
+}
+.label-notice {
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    color: #fff;
+    background-color: #A8272D;
+    padding: 0% 10px;
+    border-radius: 2px;
+}
+.image-header, .simple-header {
+    width: 1000px;
+    height: 400px;
+    margin: 0 -200px;
+    padding: 0 200px;
+}
+.simple-header {
+    height: 160px;
+}
+.page-title {
+    top: 45%;
+    font-size: 48px;
+    font-size: 4.8rem;
+}
+.simple-header .page-title {
+    font-size: 32px;
+	letter-spacing: 15px;
+}
+.topics-list .page-numbers{
+	width: 25px;
+	height: 25px;
+	font-size: 16px;
+	line-height: 25px;
+	color: #000;
+	background-color: #AE924F;
+	display: inline-block;
+	text-decoration: none;
+	margin-right: 10px;
+	text-align: center;
+	padding-top: 0;
+}
+.topics-list .current {
+    background-color: #fff;
+	color: #000;
+}
+}

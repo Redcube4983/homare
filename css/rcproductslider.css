@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+div.swiper-container img.rc_product_slider {
+	margin: 2.5vw 0px;
+	height: 20vw;
+}
+@media screen and (min-width: 920px) {
+	div.swiper-container img.rc_product_slider {
+		margin: 15px 0px;
+		height: 130px;
+	}
+	.sake-list .swiper-slide a:hover img.rc_product_slider
+	{
+    margin: 10px 0px;
+    height: 140px;
+	transition: all 1s;
+}
+}

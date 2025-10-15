@@ -1,0 +1,972 @@
+@charset "UTF-8";
+
+/*******************************
+  会津ほまれ 化粧水
+*******************************/
+.tab {
+    display: inline!important;
+}
+.image-header{
+	background-blend-mode: multiply;
+	background-color: #fff;
+	background-image: url(../images/cosme/cosme_image.jpg);	
+}
+.page-catchcopy {
+    position: absolute;
+    right: 0;
+    bottom: 55%;
+    left: 0;
+    text-align: center;
+    font-size: 3vw;
+    margin: 0;
+    font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	letter-spacing: 5px;
+	padding-left: 5px;
+	color: #AE924F;
+}
+.image-header .page-title {
+    top: 48%;
+    font-size: 6vw;
+    bottom: auto;
+    transform: none;
+    font-weight: normal;
+    letter-spacing: 5px;
+	padding-left: 5px;
+	color: #AE924F;
+}
+.breadcrumb li {
+	color: #767676;    
+}
+.breadcrumb li a, .breadcrumb li span {
+    color: #767676;
+}
+.breadcrumb li:not(:last-child)::after {
+    content: '＞';
+    margin: 0 1em;
+    color: #767676;
+}
+.cosme-intro {
+  margin: 45px 0;
+  font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+  text-align: center;
+}
+.cosme-intro h2 {
+	color: #AE924F;
+	font-size: 5vw;
+	text-align: center;
+	font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	letter-spacing: 5px;
+	line-height: 1.5;
+    font-weight: normal;
+}
+.cosme-intro p {
+	text-align: center;
+    width: auto;
+    margin: 0 20px 30px 20px;
+    color: #fff;
+    font-size: 3.2vw;
+    letter-spacing: 0px;
+    line-height: 5vw;
+	font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+section p{
+	text-align: justify;
+}
+.cosme-sec1 {
+  background-color: #fdfdfd;
+  background-image: -webkit-linear-gradient(0deg, #f0f0f0 0%, #f0f0f0 15.625vw, #fdfdfd 15.625vw, #fdfdfd 100%);
+  background-image: linear-gradient(0deg, #f0f0f0 0%, #f0f0f0 15.625vw, #fdfdfd 15.625vw, #fdfdfd 100%);
+  position: relative;
+  margin-bottom: 25vw;
+  margin: 0 20px;
+}
+.cosme-sec1-person {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+.cosme-sec1-person img {
+  margin: 12.5vw 21.875vw 0;
+  width: 46.875vw;
+  height: 46.875vw;
+  border-radius: 50%;
+}
+.cosme-sec1-person img {
+    margin: 12.5vw 25% 0;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+}
+.cosme-sec1-person-line {
+  color: #a55d93;
+  text-align: center;
+  font-size: 4.375vw;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  margin: 3.125vw 0 1.5625vw;
+  letter-spacing: .3em;
+}
+.cosme-sec1-person-name {
+  color: #a55d93;
+  text-align: center;
+  font-size: 3.125vw;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  margin: 0;
+}
+.cosme-sec1-catch {
+  color: #a55d93;
+  height: 7.5vw;
+  line-height: 7.5vw;
+  font-size: 4.375vw;
+  text-align: center;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  margin: 10% auto 0;
+  letter-spacing: .3em;
+}
+.cosme-sec1-pic {
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+}
+.cosme-sec1-pic img {
+  width: 100%;
+  height: auto;
+}
+.cosme-sec1 .buy-link {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #a55d93;
+  color: #fff;
+}
+.cosme-sec1 .buy-link {
+    display: block;
+    width: 100%;
+	max-width: 280px;
+    background-color: #a55d93;
+    height: 36px;
+    line-height: 36px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    margin: 8% 0 20px;
+    font-weight: bold;
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+.fa-caret-right {
+    font-size: 24pxs;
+    vertical-align: middle;
+    margin-top: -5px;
+    margin-right: 10px;
+}
+.cosme-sec2{
+	margin: 25% 20px 10%;
+}
+.cosme-sec2-name {
+  font-size: 4.5vw;
+  letter-spacing: .3em;
+  margin: 3.125vw 0;
+  text-align: center;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+.cosme-sec2-name small {
+  font-size: 3.125vw;
+}
+.cosme-sec2-speech {
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  font-size: 3.5vw;
+	text-align: justify;
+}
+.cosme-sec2-pic {
+  margin: 6.25vw auto;
+  text-align: center;
+}
+.cosme-sec2-pic img {
+  width: 46.875vw;
+  height: auto;
+  border-radius: 50%;
+}
+.cosme-sec3 {
+  background-color: #fff;
+  padding: 9.375vw 3.125vw;
+  counter-reset: cosme-sec3;
+  margin: 0 20px;
+}
+.cosme-sec3::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.cosme-sec3 h2 {
+    text-align: center;
+    color: #a55d93;
+    font-size: 5vw;
+    font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+    margin: 0 0 8%;
+    line-height: 1.3;
+    font-weight: normal;
+}
+.cosme-sec3 h3 {
+  height: 9.375vw;
+  line-height: 4.6875vw;
+  font-size: 3.75vw;
+  padding: 0 0 0 14.0625vw;
+  position: relative;
+  color: #000;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  margin: 3.125vw 0;
+}
+.cosme-sec3 .cosme-sec3-sec1 h3{
+  height: 9.375vw;
+  line-height: 9.6875vw;
+  font-size: 3.75vw;
+  padding: 0 0 0 14.0625vw;
+  position: relative;
+  color: #000;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  margin: 3.125vw 0;
+}
+.cosme-sec3 h3:before {
+  counter-increment: cosme-sec3;
+  content: counter(cosme-sec3);
+  display: block;
+  width: 9.375vw;
+  height: 9.375vw;
+  line-height: 9.375vw;
+  text-align: center;
+  background-color: #a55d93;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  font-size: 6.25vw;
+}
+.cosme-sec3 h3 span {
+  position: absolute;
+  top: 50%;
+  letter-spacing: .2em;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.cosme-sec3 p {
+  font-size: 3.5vw;
+  color: #000;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  margin: 3.125vw 0;
+}
+.cosme-sec3 figure {
+  margin: 3.125vw 0;
+  text-align: center;
+}
+.cosme-sec3 figure img {
+  width: 100%;
+  height: auto;
+}
+.cosme-sec3 figcaption {
+  text-align: center;
+  color: #a55d93;
+  margin: 3.125vw 0;
+  font-size: 3.125vw;
+}
+.cosme-sec3-sec2-list .line {
+    border: thin solid #C4C4C4;
+	box-sizing: border-box;
+}
+.cosme-sec3-sec2-list {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.cosme-sec3 dl {
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  width: 48%;
+  flex: 0 0 48%;
+}
+.cosme-sec3 dl img {
+  width: 100%;
+}
+.cosme-sec3 dt {
+  color: #a55d93;
+  font-size: 3.125vw;
+}
+.cosme-sec3 dd {
+  color: #000;
+  font-size: 2.5vw;
+  margin: 0;
+}
+.cosme-sec3-sec3::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.cosme-sec3-sec3 img {
+    width: 43%;
+    height: auto;
+    float: left;
+    margin: 0 3% 0 0;
+}
+.cosme-sec3-sec3 p {
+  width: 54%;
+  float: right;
+  margin: 0 0 3.125vw;
+}
+.cosme-sec3 .buy-link {
+    display: block;
+    width: 100%;
+	max-width: 280px;
+    background-color: #a55d93;
+    height: 36px;
+    line-height: 36px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    margin: 10px auto 20px;
+    font-weight: bold;
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+.cosme-sec4 {
+  padding: 5% 5%;
+  background-color: #fff;
+  margin: 10.9375vw 0 15.625vw;
+  background-color: #d9d3e7;
+  background-image: -webkit-linear-gradient(0deg, transparent 0%, transparent 19%, rgba(255, 255, 255, 0.8) 41%, rgba(255, 255, 255, 0.8) 100%);
+  background-image: linear-gradient(0deg, transparent 0%, transparent 19%, rgba(255, 255, 255, 0.8) 41%, rgba(255, 255, 255, 0.8) 100%);
+  margin: 10% 20px;
+}
+.cosme-sec4 h2 {
+  margin: 0;
+}
+.cosme-sec4-cs {
+  background-color: #544B8C;
+  color: #fff;
+  display: block;
+  width: 25vw;
+  height: 7.8125vw;
+  text-align: center;
+  line-height: 3.90625vw;
+  padding: 2.34375vw 0;
+  margin: 0 auto;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  font-size: 2.5vw;
+}
+.cosme-sec4-heading {
+  display: block;
+  color: #544B8C;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  text-align: center;
+  font-size: 5.5vw;
+  line-height: 7.5vw;
+  margin: 3.125vw 0;
+  font-weight: normal;
+}
+.cosme-sec4-text {
+  font-size: 3.0vw;
+  line-height: 5.625vw;
+  color: #000;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  margin: 3.125vw 0;
+  text-align: center;
+}
+.cosme-sec4-catch {
+  color: #544B8C;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  text-align: center;
+  font-size: 6.25vw;
+  line-height: 7.8125vw;
+  margin: 3.125vw 0;
+}
+.cosme-sec4-catch small {
+  font-size: 4.375vw;
+}
+.cosme-sec4 figure {
+  margin: 6.25vw auto 0;
+  width: 18.75vw;
+  height: 70.3125vw;
+  text-align: center;
+}
+.cosme-sec4 figure img {
+  width: 100%;
+  height: auto;
+}
+.cosme-sec4 .buy-link {
+    display: block;
+    width: 100%;
+	max-width: 280px;
+    background: linear-gradient(-45deg, #544b85, #9e5d8c);
+    height: 36px;
+    line-height: 36px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    margin: 10px auto 20px;
+    font-weight: bold;
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+@media screen and (min-width: 768px) {
+.cosme-sec1-pic {
+    width: 500px;
+    height: 650px;
+    position: absolute;
+    top: 0;
+    left: -7%;
+  }
+  .cosme-sec1-catch {
+    width: 48px;
+    height: 650px;
+    line-height: 48px;
+    font-size: 28px;
+    font-size: 2.8rem;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+	margin: 0% auto 0;
+  }
+.cosme-sec1-person-name {
+    font-size: 16px;
+    line-height: 20px;
+}
+.cosme-sec1-person-line {
+    font-size: 22px;
+    line-height: 28px;
+    margin: 20px 0 10px;
+    letter-spacing: 4px;
+}
+  .cosme-sec1-person img {
+    margin: 110px 122px 0;
+    width: 256px;
+    height: 256px;
+  }
+  .cosme-sec1-person {
+    width: 500px;
+    height: 650px;
+    position: absolute;
+    top: 0;
+    right: -7%;
+  }
+.cosme-intro h2 {
+    color: #AE924F;
+    font-size: 30px;
+    text-align: center;
+    font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	letter-spacing: 5px;
+	line-height: 1.5;
+}
+.cosme-intro p {
+    font-size: 21pt;
+    line-height: 1.76;
+    font-size: 21px;
+	letter-spacing: 4px;
+}
+.cosme-sec1 {
+    width: auto;
+    height: 650px;
+    background-image: -webkit-linear-gradient(0deg, #f0f0f0 0%, #f0f0f0 15%, #fdfdfd 15%, #fdfdfd 100%);
+    background-image: linear-gradient(0deg, #f0f0f0 0%, #f0f0f0 15%, #fdfdfd 15%, #fdfdfd 100%);
+    margin-bottom: 160px;
+	margin: 0 20px;
+  }
+  .cosme-intro {
+    margin: 45px 20px;
+  }
+  .cosme-sec1 .buy-link {
+    bottom: -96px;
+  }
+  .cosme-sec2 {
+    overflow: hidden;
+    height: auto;
+    position: relative;
+    margin-bottom: 40px;
+	margin: 150px 20px 50px;
+  }
+  .cosme-sec2-name {
+    font-size: 26px;
+    margin: 20px 0;
+    float: left;
+    width: 60%;
+	text-align: left;
+  }
+  .cosme-sec2-name small {
+    font-size: 20px;
+    font-size: 2.0rem;
+  }
+  .cosme-sec2-speech {
+    font-size: 18px;
+    float: left;
+    width: 60%;
+  }
+  .cosme-sec2-pic {
+    margin: 0;
+    position: absolute;
+    top: 0;
+    right: 30px;
+  }
+  .cosme-sec2-pic img {
+    width: 256px;
+  }
+  .cosme-sec3 {
+    padding: 60px 30px;
+	margin: 0 20px;
+  }
+ .cosme-sec3 h2 {
+    font-size: 35px;
+	margin: 0 0 20px;
+	font-weight: normal;
+	line-height: 1.4;
+	letter-spacing: 3px;
+  }
+.cosme-sec3 h3 {
+    height: 60px;
+    line-height: 60px;
+    font-size: 30px;
+    padding: 0 0 0 90px;
+    margin: 20px 0;
+    font-weight: normal;
+}
+.cosme-sec3 .cosme-sec3-sec1 h3{
+	 height: 60px;
+    line-height: 60px;
+    font-size: 30px;
+    padding: 0 0 0 90px;
+    margin: 20px 0;
+    font-weight: normal;	
+}
+.cosme-sec3 .kaigyou {
+    height: 60px;
+    line-height: 33px;
+    font-size: 30px;
+    padding: 0 0 0 90px;
+    margin: 20px 0;
+    font-weight: normal;
+}
+  .cosme-sec3 h3:before {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 40px;
+  }
+ .cosme-sec3 p {
+    font-size: 21px;
+    margin: 30px 0;
+	text-align: justify;
+  }
+.cosme-sec3 figure {
+    margin: 20px 0;
+  }
+  .cosme-sec3 figure img {
+    width: auto;
+    height: auto;
+  }
+.cosme-sec3 figcaption {
+    margin: 10px 0px;
+    font-size: 24px;
+    text-align: center;
+}
+.cosme-sec3-sec2-list .line{
+	border: thin solid #C4C4C4;
+}
+.cosme-sec3 dl {
+    width: 23%;
+    flex: 0 0 23%;
+}
+.cosme-sec3 dt {
+    font-size: 20px;
+  }
+.cosme-sec3 dd {
+    font-size: 16px;
+  }
+.cosme-sec3-sec3 img {
+    width: 38%;
+    margin: 0 0px 20px 0;
+}
+.cosme-sec3-sec3 p {
+    width: 60%;
+    margin: 0 0 20px;
+}
+.cosme-sec3 .buy-link {
+    margin: 20px auto 0;
+}
+.cosme-sec4 {
+    padding: 60px 60px;
+    margin: 70px 20px 100px;
+    position: relative;
+    overflow: hidden;
+    width: auto;
+    height: 600px;
+    box-sizing: border-box;	 
+}
+.cosme-sec4 h2 {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: start;
+    justify-content: start;
+    float: left;
+    width: 80%;
+  }
+  .cosme-sec4-cs {
+    width: 160px;
+    height: 60px;
+    line-height: 30px;
+    padding: 10px 0;
+    margin-right: 20px;
+    font-size: 20px;
+    font-size: 2.0rem;
+    letter-spacing: .2em;
+  }
+  .cosme-sec4-heading {
+    width: 535px;
+    font-size: 26px;
+    letter-spacing: 0;
+    line-height: 40px;
+    margin: 0;
+    text-align: left;
+  }
+  .cosme-sec4-text {
+    font-size: 16px;
+    line-height: 30px;
+    margin: 20px 0;
+    float: left;
+    width:  80%;
+    text-align: left;
+  }
+.cosme-sec4-catch {
+    font-size: 36px;
+    line-height: 40px;
+    margin: 0 0 20px;
+    float: left;
+    width:  80%;
+    text-align: left;
+  }
+ .cosme-sec4-catch small {
+    font-size: 28px;
+    font-size: 2.8rem;
+  }
+  .cosme-sec4 figure {
+    margin: 0;
+    width: 120px;
+    height: 450px;
+    position: absolute;
+    top: 80px;
+    right: 50px;
+  }
+.cosme-sec4 .buy-link {
+    margin: 0px auto 0;
+	float: left;
+}
+.cosme-sec4-text .sp{
+    display: inline!important;
+} 
+.sp {
+    display: none !important;
+}
+.sp2 {
+    display: inline!important;
+}
+.tab {
+    display: none !important;
+}
+}
+@media screen and (min-width: 920px) {
+.image-header .page-catchcopy {
+    position: absolute;
+    right: 0;
+    bottom: 55%;
+    left: 0;
+    text-align: center;
+    font-size: 28px;
+    margin: 0;
+    font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+.image-header .page-title {
+    top: 50%;
+    font-size: 50px;
+}
+.page-title {
+    position: absolute;
+    bottom: 25%;
+    right: 0;
+    left: 0;
+    text-align: center;
+    font-size: 4.8rem;
+    transform: translateY(-50%);
+    margin: 0;
+	font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;	
+}
+.cosme-intro h2 {
+    color: #AE924F;
+    font-size: 30px;
+    text-align: center;
+    font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	letter-spacing: 5px;
+	line-height: 1.5;
+}
+.cosme-intro p {
+    font-size: 21pt;
+    line-height: 1.76;
+    font-size: 21px;
+	letter-spacing: 4px;
+}
+.cosme-sec1-pic {
+    width: 500px;
+    height: 650px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .cosme-sec1-catch {
+    width: 48px;
+    height: 650px;
+    line-height: 48px;
+    font-size: 28px;
+    font-size: 2.8rem;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+	margin: 0% auto 0;
+  }
+  .cosme-sec1-person-name {
+    font-size: 20px;
+    font-size: 2.0rem;
+    line-height: 24px;
+  }
+  .cosme-sec1-person-line {
+    font-size: 28px;
+    font-size: 2.8rem;
+    line-height: 32px;
+    margin: 20px 0 10px;
+  }
+  .cosme-sec1-person img {
+    margin: 110px 122px 0;
+    width: 256px;
+    height: 256px;
+  }
+  .cosme-sec1-person {
+    width: 500px;
+    height: 650px;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .cosme-sec1 {
+    width: 1000px;
+    height: 650px;
+    background-image: -webkit-linear-gradient(0deg, #f0f0f0 0%, #f0f0f0 15%, #fdfdfd 15%, #fdfdfd 100%);
+    background-image: linear-gradient(0deg, #f0f0f0 0%, #f0f0f0 15%, #fdfdfd 15%, #fdfdfd 100%);
+    margin-bottom: 160px;
+	margin: 0 00px;
+  }
+  .cosme-intro {
+    margin: 45px 0;
+  }
+  .cosme-sec1 .buy-link {
+    bottom: -96px;
+  }
+  .cosme-sec2 {
+    overflow: hidden;
+    height: 256px;
+    position: relative;
+    margin-bottom: 40px;
+	margin: 150px 0 50px;
+  }
+  .cosme-sec2-name {
+    font-size: 26px;
+    margin: 0px 0;
+    float: left;
+    width: 650px;
+	text-align: left;
+	line-height: 1.6;
+  }
+  .cosme-sec2-name small {
+    font-size: 20px;
+    font-size: 2.0rem;
+  }
+  .cosme-sec2-speech {
+    font-size: 18px;
+    float: left;
+    width: 650px;
+  }
+  .cosme-sec2-pic {
+    margin: 0;
+    position: absolute;
+    top: 0;
+    right: 30px;
+  }
+  .cosme-sec2-pic img {
+    width: 256px;
+  }
+  .cosme-sec3 {
+    padding: 60px 30px;
+	margin: 0 0px;
+  }
+ .cosme-sec3 h2 {
+    font-size: 35px;
+	margin: 0 0 20px;
+	font-weight: normal;
+	line-height: 1.4;
+	letter-spacing: 3px;
+  }
+.cosme-sec3 h3 {
+    height: 60px;
+    line-height: 60px;
+    font-size: 30px;
+    padding: 0 0 0 90px;
+    margin: 20px 0;
+    font-weight: normal;
+}
+.cosme-sec3 .cosme-sec3-sec1 h3{
+	 height: 60px;
+    line-height: 60px;
+    font-size: 30px;
+    padding: 0 0 0 90px;
+    margin: 20px 0;
+    font-weight: normal;	
+}
+.cosme-sec3 .kaigyou {
+    height: 60px;
+    line-height: 60px;
+    font-size: 30px;
+    padding: 0 0 0 90px;
+    margin: 20px 0;
+    font-weight: normal;
+}
+  .cosme-sec3 h3:before {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 40px;
+  }
+ .cosme-sec3 p {
+    font-size: 21px;
+    margin: 30px 0;
+	text-align: justify;
+  }
+.cosme-sec3 figure {
+    margin: 20px 0;
+  }
+  .cosme-sec3 figure img {
+    width: auto;
+    height: auto;
+  }
+.cosme-sec3 figcaption {
+    margin: 10px 130px;
+    font-size: 24px;
+    font-size: 2.4rem;
+    text-align: left;
+}
+.cosme-sec3-sec2-list .line{
+	border: thin solid #C4C4C4;
+}
+.cosme-sec3 dl {
+    width: 210px;
+    flex: 0 0 210px;
+}
+.cosme-sec3 dt {
+    font-size: 20px;
+  }
+.cosme-sec3 dd {
+    font-size: 16px;
+  }
+.cosme-sec3-sec3 img {
+    width: 250px;
+    margin: 0 20px 20px 0;
+}
+.cosme-sec3-sec3 p {
+    width: 670px;
+    margin: 0 0 20px;
+}
+.cosme-sec3 .buy-link {
+    margin: 20px auto 0;
+}
+.cosme-sec4 {
+    padding: 80px 50px;
+    margin: 70px 0 100px;
+    position: relative;
+    overflow: hidden;
+    width: 1000px;
+    height: 600px;
+    box-sizing: border-box;	 
+}
+.cosme-sec4 h2 {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: start;
+    justify-content: start;
+    float: center;
+    width: 720px;
+  }
+  .cosme-sec4-cs {
+    width: 160px;
+    height: 60px;
+    line-height: 30px;
+    padding: 10px 0;
+    margin-right: 20px;
+    font-size: 20px;
+    font-size: 2.0rem;
+    letter-spacing: .2em;
+  }
+  .cosme-sec4-heading {
+    width: 100%;
+    font-size: 32px;
+    font-size: 3.2rem;
+    letter-spacing: .2em;
+    line-height: 40px;
+    margin: 0;
+    text-align: center;
+  }
+  .cosme-sec4-text {
+    font-size: 20px;
+    font-size: 2.0rem;
+    line-height: 36px;
+    margin: 10px 0;
+    float: left;
+    width: 720px;
+    text-align: center;
+  }
+.cosme-sec4-catch {
+    font-size: 40px;
+    font-size: 4.0rem;
+    line-height: 50px;
+    margin: 0 0 20px;
+    float: left;
+    width: 720px;
+    text-align: center;
+  }
+ .cosme-sec4-catch small {
+    font-size: 28px;
+    font-size: 2.8rem;
+  }
+  .cosme-sec4 figure {
+    margin: 0;
+    width: 120px;
+    height: 450px;
+    position: absolute;
+    top: 80px;
+    right: 50px;
+  }
+.cosme-sec4 .buy-link {
+    width: 280px;
+    max-width: 280px;
+    margin: 0 220px;
+	float: left;
+}
+.cosme-sec4-text .sp{
+    display: none!important;
+} 
+.sp2 {
+    display: none!important;
+}
+}

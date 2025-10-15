@@ -1,0 +1,283 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#content div.sharedaddy, #main div.sharedaddy, div.sharedaddy {
+    margin-top: 30px!important;
+}
+div.sharedaddy h3.sd-title {
+    line-height: 3!important;
+    float: left;
+    margin-right: 10px!important;
+}
+div.sharedaddy h3.sd-title::before {
+    display: none!important;
+}
+main {
+    color: #fff;
+    display: block;
+    margin: 80px 00px;
+}
+.topics-list{
+	margin: 0% 20px 10%;
+	height: auto;
+}
+.topics-list a {
+    color: #AE924F;
+    font-size: 3.5vw;
+}
+.topics-list img{
+	width: 100%;
+	height: auto;
+}
+.topics-list article {
+    margin: 4.6875vw 0;
+    padding-bottom: 4.6875vw;
+    border-bottom: 1px dotted #fff;
+}
+.label-notice {
+    color: #fff;
+    background-color: #A8272D;
+}
+.topics-list time {
+    margin-left: 1em;
+    text-decoration: underline;
+}
+.topics-list h2 {
+    font-size: 3.75vw;
+    margin: 0.78125vw 0;
+    text-decoration: underline;
+}
+.topics-list p {
+    font-size: 3.5vw;
+    margin: 0 auto 2%;
+}
+.company-overview{
+	margin: 0 20px;
+}
+.image-header, .simple-header {
+    width: 100%;
+    height: 50vw;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    margin: 0 00px;
+}
+.simple-header {
+    height: 31.25vw;
+    margin-bottom: 5%;
+}
+.breadcrumb ul {
+    list-style: none;
+    margin: 0;
+    padding: 5px 20px;
+    overflow: hidden;
+    width: 100vw;
+}
+.simple-header .breadcrumb ul li {
+    line-height: 1.6;
+}
+.simple-header .breadcrumb ul {
+	background-color: #383838;
+}
+.simple-header .page-title {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    text-align: center;
+    font-size: 4vw;
+    margin: 0 20px;
+    font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+	letter-spacing: 0px;
+	font-weight: normal;
+}
+.heading-02 {
+    font-size: 3.75vw;
+    height: 5.625vw;
+    line-height: 5.625vw;
+    background-color: #AE924F;
+    color: #000;
+    text-align: center;
+}
+.navigation{
+	margin-top: 10%;
+	text-align: center;
+}
+.navigation h2{
+	font-size: 3vw;
+	text-align: center;
+	text-decoration: none;	
+}
+.nav-links a{
+	font-size: 3vw;
+	text-align: center;
+}
+.nav-links{
+	width: auto;
+	margin: 0 20px;
+}
+.nav-previous{
+	width: 48%;
+	float: left;
+	text-align: right;
+}
+.nav-next{
+	float: right;
+	width: 48%;
+	text-align: left;
+}
+@media screen and (min-width: 768px) {
+main {
+    color: #fff;
+    display: block;
+    margin: 80px 00px 0;
+}
+.topics-list {
+    margin: 40px 20px 10%;
+    height: auto;
+}
+.company-overview {
+    margin: 0 20px;
+}
+.simple-header {
+    height: 160px;
+	margin-bottom: 80px;
+}
+.page-title {
+    top: 45%;
+    font-size: 48px;
+    font-size: 4.8rem;
+}
+.simple-header .page-title {
+    font-size: 28px;
+    letter-spacing: 0px;
+    margin-top: 4%;
+}
+.topics-list a {
+    font-size: 18px;
+}
+.topics-list h2 {
+    font-size: 16px;
+    margin: 5px 0;
+}
+.topics-list p {
+    font-size: 18px;
+	margin: 0 auto 5px;
+}
+.topics-list img{
+	width: 100%;
+	height: auto;
+}
+.heading-02 {
+    font-size: 24px;
+    height: 36px;
+    line-height: 36px;
+}
+.table-wrap {
+    border: solid 20px #fff;
+    box-sizing: border-box;
+}
+.company-overview th, .company-overview td, .company-overview td p {
+    text-align: left;
+	line-height: 1.4;
+}
+.table-wrap th {
+    width: 200px!important;
+}
+.table-wrap th {
+    display: table-cell;
+    padding: 25px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    border: 1px solid #838383;
+        border-left-width: 1px;
+        border-left-style: solid;
+        border-left-color: rgb(131, 131, 131);
+    border-left: none;
+    vertical-align: top;
+    font-weight: normal;
+    box-sizing: border-box;
+}
+.table-wrap td {
+    display: table-cell;
+    padding: 13px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    border: 1px solid #838383;
+        border-right-width: 1px;
+        border-right-style: solid;
+        border-right-color: rgb(131, 131, 131);
+    border-right: none;
+    box-sizing: border-box;
+}
+.table-wrap p, .table-wrap input, .table-wrap select, .table-wrap textarea {
+    margin: 7px 0;
+}
+.company-overview th, .company-overview td, .company-overview td p {
+    text-align: left;
+}
+.company-overview th, .company-overview td, .company-overview td p {
+    text-align: left;
+}
+.company-access{
+	margin: 70px 20px 0;	
+	padding-top: 0px;
+}	
+}
+@media screen and (min-width: 920px) {
+main {
+    width: 1000px;
+    margin: 0 auto;
+}
+main::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.topics-list{
+	margin: 0 0px;
+}
+.topics-list article {
+    margin: 10px 0;
+    padding-bottom: 10px;
+}
+.topics-list a {
+    font-size: 18px;
+	
+}
+.topics-list h2 {
+    font-size: 16px;
+    margin: 5px 0;
+}
+.topics-list p {
+    font-size: 18px;
+	margin: 0 auto 5px;
+}
+.image-header, .simple-header {
+    width: 1000px;
+    height: 400px;
+    margin: 0 -200px;
+    padding: 0 200px;
+}
+.simple-header {
+    height: 160px;
+}
+.page-title {
+    top: 45%;
+    font-size: 48px;
+    font-size: 4.8rem;
+}
+.simple-header .page-title {
+    font-size: 28px;
+	letter-spacing: 0px;
+	width: auto;
+	margin: 0 200px;
+}
+.simple-header .breadcrumb ul li {
+    line-height: 1.6rem;
+}
+.topics-list img{
+	width: 100%;
+	max-width: 100%;
+}
+}

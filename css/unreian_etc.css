@@ -1,0 +1,411 @@
+@charset "UTF-8";
+/*******************************
+   雲嶺庵
+*******************************/
+.image-header {
+    width: 100%;
+    height: 50vw;
+}
+.image-header{
+	background-blend-mode: multiply;
+	background-color: #999999;
+	background-image: url(../images/unreian/unreian_image.jpg);	
+}
+.image-header{
+  background-image: url(../images/unreian/unreian_image1.jpg)\9; /* IE10以下 */
+}
+@media all and (-ms-high-contrast: none){
+.image-header{
+   background-image: url(../images/unreian/unreian_image1.jpg); /* IE10以上 */
+  }
+}
+@supports (-ms-ime-align: auto) and (not (-webkit-text-stroke: initial)){
+.image-header{
+   background-image: url(../images/unreian/unreian_image1.jpg); /* Edge12〜14 */
+  }
+}
+@supports (-ms-ime-align: auto) {
+.image-header{
+   background-image: url(../images/unreian/unreian_image1.jpg); /* Edge12+（Edge全て） */
+  }
+}
+.page-catchcopy {
+    position: absolute;
+    right: 0;
+    bottom: 55%;
+    left: 0;
+    text-align: center;
+    font-size: 3vw;
+    margin: 0;
+    font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+.image-header .page-title {
+    top: 48%;
+    font-size: 6vw;
+    bottom: auto;
+    transform: none;
+    font-weight: normal;
+    letter-spacing: 0px;
+}
+.homare-btn-list {
+    list-style: none;
+    margin: 30px 20px 40px;
+    padding: 0;
+    overflow: hidden;
+    display: -webkit-flex;
+    display: flex;
+}
+.homare-btn-list li:not(:last-child) {
+    margin-right: 20px;
+}
+.homare-btn-list a {
+    display: block;
+    background-color: #AE924F;
+    text-align: center;
+    font-size: 3.5vw;
+    text-decoration: none;
+    color: #000;
+    font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	padding: 1% 0;
+	font-weight: bold;
+}
+.homare-btn-list a img {
+    width: 28px;
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 5px;
+    fill: #000;
+    margin-top: -6px;
+}
+.intro-heading {
+	color: #AE924F;
+	font-size: 30px;
+	font-size: 5vw;
+	text-align: center;
+	font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	letter-spacing: 1px;
+	line-height: 1.5;
+    font-weight: normal;
+}
+.heading-02 {
+    font-size: 3.75vw;
+    height: 5.625vw;
+    line-height: 5.625vw;
+    background-color: #AE924F;
+    color: #000;
+    text-align: center;
+	margin-top: 00px;
+}
+.concept-intro {
+  margin: 45px 0;
+}
+.intro-text {
+	text-align: center;
+    width: auto;
+    margin: 0 00px 30px 00px;
+    color: #fff;
+    font-size: 3.2vw;
+    letter-spacing: 0px;
+    line-height: 5vw;
+	font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+.big-image-wrap{
+	margin-bottom: 20px;
+	height: auto;
+	float: left;
+	margin: 0 20px;
+	}
+.unreian-sec .big-image-wrap {
+    margin-bottom: 20px;
+    height: auto;
+    float: left;
+    margin: 0 00px 20px;
+}
+.big-image-wrap .big{
+	width: 100%;
+	height: auto;
+	float: left;
+}
+.big-image-wrap .mini{
+	width: 100%;
+	height: auto;
+	float: left;
+}
+.unreian-sec{
+	margin: 0 20px 20px;
+	float: left;
+	padding-top: 100px;
+}
+.unreian-sec section{
+	width: 100%;
+}
+.unreian-sec h3 {
+	font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;    
+    color: #AE924F;
+    font-size: 4.6875vw;
+    line-height: 8.59375vw;
+    border-bottom: 2px solid #AE924F;
+    font-weight: normal;
+	margin: 0 auto 15px;
+}
+.unreian-sec .sec-title {
+	font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;    
+    font-size: 4vw;
+    font-weight: normal;
+    margin: 0;
+}
+.unreian-sec p {
+    font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+    font-size: 3.5vw;
+    line-height: 1.7;
+    margin: 8px 0 0;
+}
+.unreian-sec p small{
+    font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+    font-size: 70%;
+    line-height: 1;
+}
+.unreian-sec .corporate-customer{
+    margin-top: 40px;
+}
+.unreian-sec ul {
+  margin: 8px 0 0 20px;
+  padding: 0;
+}
+.unreian-sec li {
+  font-size: 1.6rem;
+  font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+  line-height: 1.8;
+}
+#adress{
+	border-collapse: collapse;
+    font-size: 2.8vw;
+    width: 100%;
+    margin: 0 0px;
+	margin-bottom: 50px;
+}
+#adress th, #adress td {
+	padding: 1vw;
+	text-align: left;
+	width: auto;
+	color: #AE924F;
+}
+#adress th{
+	border-bottom: 1px solid #AE924F;
+	border-top: 1px solid #AE924F;
+	padding: 1vw;
+	text-align: left;
+	font-size: 2.5vw;
+	width: 25%;
+}
+#adress td{
+	border-bottom: 1px solid #AE924F;
+	border-top: 1px solid #AE924F;
+	border-left: 1px solid #AE924F;
+    padding: 1vw;
+    text-align: left;
+	font-size: 2.5vw;
+	width: auto;
+}
+.ggmap {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+.ggmap iframe, .ggmap object, .ggmap embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+table a {
+    color: #fff;
+}
+table a:hover {
+	color: #F2C049;
+}
+@media screen and (min-width: 768px) {
+.intro-heading {
+    color: #AE924F;
+    font-size: 30px;
+    font-size: 3.0rem;
+    text-align: center;
+    font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	letter-spacing: 5px;
+}
+.intro-text {
+    font-size: 21pt;
+    line-height: 1.76;
+    font-size: 21px;
+	letter-spacing: 4px;
+}
+.big-image-wrap .big{
+	width: 100%;
+	height: auto;
+}
+.big-image-wrap .mini{
+	width: 50%;
+	height: auto;
+}
+.heading-02 {
+    font-size: 24px;
+    height: 36px;
+    line-height: 36px;
+}
+.unreian-sec{
+	margin: 0 20px 20px;
+	width: auto;
+}
+.unreian-sec h3 {
+    font-size: 30px;
+    line-height: 55px;
+}
+.unreian-sec .sec-title { 
+    font-size: 2rem;
+}
+.unreian-sec p {
+    font-size: 18px;
+    line-height: 30px;
+	letter-spacing: 3px;
+}
+.unreian-sec p small{
+	font-size: 13px;	
+}
+.unreian-sec li {
+  font-size: 1.8rem;
+}
+}
+@media screen and (min-width: 920px) {
+.simple-header, .image-header {
+    margin: 0 -200px;
+    padding: 0 200px;
+}
+.image-header {
+    width: 1000px;
+    height: 400px;
+}
+.image-header .page-catchcopy {
+    position: absolute;
+    right: 0;
+    bottom: 55%;
+    left: 0;
+    text-align: center;
+    font-size: 28px;
+    margin: 0;
+    font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+.image-header .page-title {
+    top: 50%;
+    font-size: 50px;
+}
+.homare-btn-list {
+    margin: 50px 0 40px;
+}
+.homare-btn-list li:not(:last-child) {
+    margin-right: 30px;
+}
+.homare-btn-list li a {
+    font-size: 26px;
+    line-height: 1.4;
+    padding-top: 10px;
+    padding-bottom: 15px;
+	letter-spacing: 2px;
+}
+.homare-btn-list a img {
+    width: 40px;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 10px;
+    fill: #000;
+    margin-top: -5px;
+}
+.homare-btn-list li a svg {
+    width: 40px;
+    height: 32px;
+}
+.page-title {
+    position: absolute;
+    bottom: 25%;
+    right: 0;
+    left: 0;
+    text-align: center;
+    font-size: 4.8rem;
+    transform: translateY(-50%);
+    margin: 0;
+	font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;	
+}
+.intro {
+    margin: 0 00px;
+}
+.intro-heading {
+    color: #AE924F;
+    font-size: 30px;
+    font-size: 3.0rem;
+    text-align: center;
+    font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	letter-spacing: 5px;
+}
+.intro-text {
+    font-size: 21pt;
+    line-height: 1.76;
+    font-size: 21px;
+	letter-spacing: 4px;
+}
+.big-image-wrap{
+	margin-bottom: 30px;
+	height: auto;
+	float: left;
+	margin: 0 00px;
+	}
+.unreian-sec .big-image-wrap {
+    margin-bottom: 30px;
+    height: auto;
+    float: left;
+    margin: 0 0 20px;
+}
+.big-image-wrap .big{
+	width: 100%;
+	height: auto;
+}
+.big-image-wrap .mini{
+	width: 50%;
+	height: auto;
+}
+.heading-02 {
+    font-size: 24px;
+    height: 36px;
+    line-height: 36px;
+}
+.unreian-sec{
+	margin: 0 00px 20px;
+	width: 100%;
+}
+.unreian-sec h3 {
+    font-size: 30px;
+    line-height: 55px;
+}
+.unreian-sec p {
+    font-size: 18px;
+    line-height: 30px;
+	letter-spacing: 3px;
+}
+.unreian-sec p small{
+	font-size: 13px;	
+}
+#adress th{
+	padding: 1vw;
+	text-align: left;
+	font-size: 20px;
+	width: auto;
+}
+#adress td{
+    padding: 1vw;
+    text-align: left;
+	font-size: 20px;
+	width: auto;
+}
+}
+

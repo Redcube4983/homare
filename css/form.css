@@ -1,0 +1,269 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*******************************
+	検索フォーム
+*******************************/
+.topnavi-2 h2 {
+    text-align: center;
+	margin-bottom: 15px;
+}
+.topnavi-2 section {
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+}
+.topnavi-1, .topnavi-2 {
+    border-bottom: none;
+	padding: 0;
+    display: -webkit-block;
+    display: block;
+}
+.topnavi-1{
+	padding: 10px 0 0 0;	
+	}
+.topnavi div:nth-child(4){
+	padding: 10px 0px 0 0;		
+	}
+.topnavi-search-submit2 {
+    padding: 20px 0;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+	padding-top: 0;
+}
+
+.topnavi-search-submit2 input[type="submit"] {
+    width: 110px;
+	height: 30px;
+    -webkit-appearance: none;
+    appearance: none;
+    padding: 0;
+    border: none;
+    background: -webkit-linear-gradient(#C0A86B, #A68323);
+    background: linear-gradient(#C0A86B, #A68323);
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.topnavi-2{
+	padding-top: 25px;	
+	}
+.topnavi-search-form input[type="search"] {
+	 width: 100%;
+	 height: 30px;
+}
+.topnavi-search-form input[placeholder="商品名を入力"]{
+	padding-left: 10px;
+}
+.topnavi-search-form input[type="submit"] {
+    width: 110px;
+    height: 30px;
+	border-radius: 4px;
+	font-size: 16px;
+}
+.topnavi-search .topnavi-search-itemname{
+	float: left;
+}
+.topnavi-search {
+    width: 500px;
+    flex: 0 0 100%;
+}
+.topnavi-search-link{
+	text-align: center;
+	margin-top: 3px;
+	margin-bottom: 15px;
+	vertical-align: middle;
+}
+.topnavi-search-link a{
+	color: #FFFFFF;	
+	font-size: 15px;
+	margin-left: 0px;
+	vertical-align: middle;
+}
+.topnavi-search-link a:nth-child(2) {
+    color: #fff;
+    margin-left: 5%;
+    background-color: #A5272D;
+    padding: 6px 10px 6px;
+    text-decoration: none;
+    border-radius: 4px;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+span.svg-inline--fa {
+    vertical-align: -.3em;
+    font-size: 23px;
+    padding-top: 5px;
+    margin-left: 10px;
+    margin-right: 2px;
+}
+.topnavi-info{
+	width: 100%;
+}
+.topnavi-info h2 {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    width: 100%;
+    float: left;
+    border-bottom: thin solid #AE924F;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+
+}
+.topnavi-1 section {
+    height: auto;
+}
+.topnavi-info div{
+	float: none;
+	margin-bottom: 20px;
+}
+.topnavi-info div input ,.topnavi-info div label{
+	font-size: 15px;
+}
+.topnavi-info div input{
+	height: 18px;
+    padding: 5px;
+    width: 18px;
+	margin: 0;
+    margin-right: 3px;
+	vertical-align: -.12em;
+}		
+.topnavi-info div label{
+	margin-right: 8px;
+}
+@media screen and (min-width: 920px) {
+.topnavi-2 h2 {
+    text-align: left;
+	margin-bottom: 5px;
+}
+.topnavi-2 section {
+    height: auto;
+    width: 100%;
+    flex: 0 0 640px;
+}
+.topnavi-1, .topnavi-2 {
+    border-bottom: none;
+	padding: 0;
+    display: -webkit-flex;
+    display: flex;
+}
+.topnavi-1{
+	padding: 10px 0 0 0;	
+	}
+.topnavi div:nth-child(4){
+	padding: 10px 110px 0 0;		
+	}
+.topnavi-search-submit2 {
+    padding: 20px 0;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.topnavi-search-submit2 input[type="submit"] {
+    width: 110px;
+	height: 30px;
+    -webkit-appearance: none;
+    appearance: none;
+    padding: 0;
+    border: none;
+    background: -webkit-linear-gradient(#C0A86B, #A68323);
+    background: linear-gradient(#C0A86B, #A68323);
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.topnavi-2{
+	padding-top: 25px;	
+	}
+.topnavi-search-form input[type="search"] {
+	 width: 300px;
+	 height: 30px;
+}
+.topnavi-search-form input[placeholder="商品名を入力"]{
+	padding-left: 10px;
+}
+.topnavi-search-form input[type="submit"] {
+    width: 110px;
+    height: 30px;
+	border-radius: 4px;
+	font-size: 16px;
+}
+.topnavi-search .topnavi-search-itemname{
+	float: left;
+}
+.topnavi-search {
+    width: 500px;
+    flex: 0 0 540px;
+}
+.topnavi-search-link {
+    margin-top: 4px;
+    margin-bottom: 0px;
+    vertical-align: middle;
+}
+.topnavi-search-link a{
+	color: #FFFFFF;	
+	font-size: 15px;
+	margin-left: 0px;
+	vertical-align: middle;
+}
+.topnavi-search-link a:nth-child(2) {
+    color: #fff;
+    margin-left: -5%;
+    background-color: #A5272D;
+    padding: 7px 10px 5px;
+    text-decoration: none;
+    border-radius: 4px;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+.topnavi-search-link a:nth-of-type(2) {
+    margin-left: 2rem;
+}
+span .fa-angle-right {
+    vertical-align: -.3em;
+    font-size: 23px;
+    padding-top: 5px;
+    margin-left: 10px;
+    margin-right: 2px;
+}
+.topnavi-info h2 {
+	text-align: left;
+	margin: 0 auto;
+	width: 100%;
+	float: left;
+	border-bottom: thin solid #AE924F;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+}
+.topnavi-1 section {
+    height: auto;
+}
+.topnavi-info {
+	width: auto;
+}
+.topnavi-info div{
+	float: left;
+	margin-bottom: 0px;
+	}
+.topnavi-info div input ,.topnavi-info div label{
+	font-size: 15px;
+}
+.topnavi-info div input{
+	height: 18px;
+    padding: 5px;
+    width: 20px;
+	margin: 0;
+    margin-right: 2.8px;
+	vertical-align: -.12em;
+}		
+.topnavi-info div label{
+	margin-right: 9px;
+}
+.topnavi-info div label:last-child{
+	margin-right: 0px;
+}
+}

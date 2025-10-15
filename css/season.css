@@ -1,0 +1,447 @@
+@charset "UTF-8";
+
+/*******************************
+  季節限定酒
+*******************************/
+.image-header{
+	background-blend-mode: multiply;
+	background-color: #999999;
+	background-image: url(../images/season/season_image2.jpg);	
+}
+.image-header{
+  background-image: url(../images/season/season_image3.jpg)\9; /* IE10以下 */
+}
+@media all and (-ms-high-contrast: none){
+.image-header{
+   background-image: url(../images/season/season_image3.jpg); /* IE10以上 */
+  }
+}
+@supports (-ms-ime-align: auto) and (not (-webkit-text-stroke: initial)){
+.image-header{
+   background-image: url(../images/season/season_image3.jpg); /* Edge12〜14 */
+  }
+}
+@supports (-ms-ime-align: auto) {
+.image-header{
+   background-image: url(../images/season/season_image3.jpg); /* Edge12+（Edge全て） */
+  }
+}
+.page-catchcopy {
+    position: absolute;
+    right: 0;
+    bottom: 55%;
+    left: 0;
+    text-align: center;
+    font-size: 3vw;
+    margin: 0;
+    font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	letter-spacing: 5px;
+	padding-left: 5px;
+}
+.image-header .page-title {
+    top: 48%;
+    font-size: 6vw;
+    bottom: auto;
+    transform: none;
+    font-weight: normal;
+    letter-spacing: 5px;
+	padding-left: 5px;
+}
+.season-intro h2 {
+	color: #AE924F;
+	font-size: 5vw;
+	text-align: center;
+	font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	letter-spacing: 5px;
+	line-height: 1.5;
+    font-weight: normal;
+}
+.season-intro p {
+	text-align: center;
+    width: auto;
+    margin: 0 20px 30px 20px;
+    color: #fff;
+    font-size: 3.2vw;
+    letter-spacing: 0px;
+    line-height: 5vw;
+	font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+.season-intro {
+  margin: 45px 0;
+  font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+  text-align: center;
+}
+.season-article {
+  border: 0.3125vw solid #AE924F;
+  margin: 0 20px 30px;
+  padding: 2.8125vw;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+.season-article h3 {
+  -webkit-order: 1;
+  order: 1;
+  font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+  margin: 0 0 3.125vw;
+  height: 12.5vw;
+  line-height: 12.5vw;
+  font-size: 4.5vw;
+  color: #AE924F;
+}
+.season-article h3 span {
+  display: inline-block;
+  width: 12.5vw;
+  height: 12.5vw;
+  line-height: 12.5vw;
+  font-size: 6.25vw;
+  background: -webkit-linear-gradient(135deg, #C0A86B, #A68323);
+  background: linear-gradient(135deg, #C0A86B, #A68323);
+  text-align: center;
+  color: #000;
+  border-radius: 6.25vw;
+  letter-spacing: -.1em;
+  margin-right: 3.125vw;
+}
+.season-article p {
+  -webkit-order: 2;
+  order: 2;
+  margin: 0 0 15px;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  line-height: 5.46875vw;
+  font-size: 3.125vw;
+  text-align: justify;
+}
+.season-article .buy-link {
+	-webkit-order: 3;
+    order: 3;
+    display: block;
+    width: 100%;
+	max-width: 280px;
+    background-color: #AE924F;
+    height: 36px;
+    line-height: 36px;
+    color: #000;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    margin: 16px auto 0;
+    font-weight: bold;
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+.fa-caret-right {
+    font-size: 24pxs;
+    vertical-align: middle;
+    margin-top: -5px;
+    margin-right: 10px;
+}
+.season-article figure {
+  -webkit-order: 4;
+  order: 4;
+  text-align: center;
+  margin: 3.125vw auto;
+  width: auto;
+  max-width: 100%;
+}
+#hiyaoroshi {
+	width: auto;
+    max-width: 20%;
+}
+#nigori {
+	width: auto;
+    max-width: 60%;
+}
+#shiboritate {
+	width: auto;
+    max-width: 40%;
+}
+#muroka {
+	width: auto;
+    max-width: 40%;
+}
+#takumi{
+	width: auto;
+    max-width: 20%;
+}
+.season-article figure img {
+  vertical-align: middle;
+}
+.season-article hr {
+  -webkit-order: 5;
+  order: 5;
+  margin: 0;
+  border: none;
+  border-top: 1px solid #AE924F;
+}
+.season-article .season-article-footer {
+  -webkit-order: 6;
+  order: 6;
+  color: #AE924F;
+  padding-top: 3.125vw;
+  font-weight: bold;
+  font-size: 3vw;
+  text-align: justify;
+}
+.season-article .season-article-footer em {
+  font-size: 2.8125vw;
+  font-style: normal;
+}
+.season-article-footercolumn{
+	float: left;
+	border-bottom-color: #FFFFFF;
+	border-top-color: #FFFFFF;
+	border-bottom-style: dotted;
+	border-top-style: dotted;
+	border-bottom-width: thin;
+	border-top-width: thin;
+	margin-top: 15px;
+	padding: 10px 0;
+	-webkit-order: 7;
+	order: 7;
+	margin-bottom: 15px;
+}
+.season-article-footercolumn h4{
+	font-size: 3.2vw;
+	margin: 0;
+	color: #AE924F;
+}
+.season-article-footercolumn p{
+	font-size: 2.8vw;
+	line-height: 1.5;
+	text-align: justify;
+	margin: 0;
+}
+@media screen and (min-width: 768px) {
+.image-header{
+	background-blend-mode: multiply;
+	background-color: #999999;
+	background-image: url(../images/season/season_image2.jpg);	
+}
+	.season-intro h2 {
+    color: #AE924F;
+    font-size: 30px;
+    text-align: center;
+    font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	letter-spacing: 5px;
+	line-height: 1.5;
+}
+.season-article h3 {
+    font-size: 30px;
+}
+.season-article h3 span {
+    font-size: 30px;
+}
+.season-article p {
+	font-size: 18px;
+	line-height: 35px;
+}
+.season-intro p {
+    font-size: 21pt;
+    line-height: 1.76;
+    font-size: 21px;
+	letter-spacing: 4px;
+}
+.season-article .season-article-footer {
+    float: left;
+    padding-top: 20px;
+    font-size: 18px;
+}
+.season-article .season-article-footer em {
+    font-size: 20px;
+}
+.season-article-footercolumn h4{
+	font-size: 18px;
+	margin: 0;
+	color: #AE924F;
+}
+.season-article-footercolumn p{
+	font-size: 16px;
+	line-height: 1.5;
+	text-align: justify;
+	margin: 0;
+}
+}
+@media screen and (min-width: 920px) {
+.image-header{
+	background-blend-mode: multiply;
+	background-color: #999999;
+	background-image: url(../images/season/season_image2.jpg);	
+}
+.image-header{
+  background-image: url(../images/season/season_image3.jpg)\9; /* IE10以下 */
+}
+@media all and (-ms-high-contrast: none){
+.image-header{
+   background-image: url(../images/season/season_image3.jpg); /* IE10以上 */
+  }
+}
+@supports (-ms-ime-align: auto) and (not (-webkit-text-stroke: initial)){
+.image-header{
+   background-image: url(../images/season/season_image3.jpg); /* Edge12〜14 */
+  }
+}
+@supports (-ms-ime-align: auto) {
+.image-header{
+   background-image: url(../images/season/season_image3.jpg); /* Edge12+（Edge全て） */
+  }
+}
+.image-header .page-catchcopy {
+    position: absolute;
+    right: 0;
+    bottom: 55%;
+    left: 0;
+    text-align: center;
+    font-size: 28px;
+    margin: 0;
+    font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+.image-header .page-title {
+    top: 50%;
+    font-size: 50px;
+}
+.page-title {
+    position: absolute;
+    bottom: 25%;
+    right: 0;
+    left: 0;
+    text-align: center;
+    font-size: 4.8rem;
+    transform: translateY(-50%);
+    margin: 0;
+	font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;	
+}
+.season-intro h2 {
+    color: #AE924F;
+    font-size: 30px;
+    text-align: center;
+    font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	letter-spacing: 5px;
+	line-height: 1.5;
+}
+.season-intro p {
+    font-size: 21pt;
+    line-height: 1.76;
+    font-size: 21px;
+	letter-spacing: 4px;
+}
+.season-article {
+    display: block;
+    border: 2px solid #AE924F;
+    margin: 50px 0;
+    padding: 48px;
+}
+.season-article::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.season-article h3 {
+    float: left;
+    margin: 0 0 20px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 30px;
+}
+.season-article h3 span {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 30px;
+    border-radius: 40px;
+    margin-right: 20px;
+}
+.season-article p {
+	clear: left;
+	line-height: 35px;
+	font-size: 18px;
+	margin: 0 0 20px;
+	font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;	
+	text-align: justify;
+}
+.season-article .buy-link {
+    display: block;
+    width: 100%;
+	max-width: 280px;
+    background-color: #AE924F;
+    height: 36px;
+    line-height: 36px;
+    color: #000;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    margin: 0 0 20px;
+    font-weight: bold;
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+.fa-caret-right {
+    font-size: 24pxs;
+    vertical-align: middle;
+    margin-top: -5px;
+    margin-right: 10px;
+}
+.season-article figure {
+    float: right;
+    margin: 0 0 0 40px;
+	width: auto;
+    max-width: 100%;
+}
+#hiyaoroshi {
+    float: right;
+    margin: 0 0 0 40px;
+	width: auto;
+    max-width: 11%;
+}
+#nigori {
+    float: right;
+    margin: 0 0 0 40px;
+	width: auto;
+    max-width: 26%;
+}
+#shiboritate {
+    float: right;
+    margin: 0 0 0 40px;
+	width: auto;
+    max-width: 20%;
+}
+#muroka {
+    float: right;
+    margin: 0 0 0 40px;
+	width: auto;
+    max-width: 20%;
+}
+#takumi{
+    float: right;
+    margin: 0 0 0 40px;
+	width: auto;
+    max-width: 12.5%;
+}
+.season-article .season-article-footer {
+    float: left;
+    padding-top: 20px;
+    font-size: 18px;
+}
+.season-article .season-article-footer em {
+    font-size: 20px;
+}
+.season-article-footercolumn{
+	float: left;
+	border: thin dotted #FFFFFF;
+	margin-top: 30px;
+	padding: 20px;
+	margin-bottom: 0px;
+}
+.season-article-footercolumn h4{
+	font-size: 18px;
+	margin: 0;
+	color: #AE924F;
+}
+.season-article-footercolumn p{
+	font-size: 16px;
+	line-height: 1.5;
+	text-align: justify;
+	margin: 0;
+}
+}

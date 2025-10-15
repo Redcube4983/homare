@@ -1,0 +1,420 @@
+@charset "UTF-8";
+/* CSS Document */
+main {
+    color: #fff;
+    display: block;
+    margin: 80px 00px 0;
+}
+.image-header, .simple-header {
+    width: 100%;
+    height: 50vw;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    margin: 0 00px;
+}
+.simple-header {
+    height: 31.25vw;
+}
+.breadcrumb ul {
+    list-style: none;
+    margin: 0;
+    padding: 5px 20px;
+    overflow: hidden;
+    width: 100vw;
+}
+.simple-header .breadcrumb ul {
+	background-color: #383838;
+}
+.simple-header .page-title {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    text-align: center;
+    font-size: 4.4vw;
+    margin: 0 20px;
+    font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+	letter-spacing: 0px;
+	font-weight: normal;
+}
+.text-page section{
+	margin: 0px 20px;
+	margin-bottom: 30px;
+}
+.text-page section h2 {
+    color: #AE924F;
+    border-bottom: 2px solid #AE924F;
+    font-size: 4.375vw;
+	margin: 15px 0px;
+	line-height: 1;
+	width: auto;
+	padding-bottom: 5px;
+}
+.text-page section p {
+    font-size: 2.8vw;
+	margin: 5% 0px;
+	text-align: justify;
+}
+.text-page section td p {
+    font-size: 2.8vw;
+	margin: 0% 00px;
+	text-align: justify;
+	line-height: 1;
+	margin-bottom: 15px;
+	width: auto;
+}
+.text-page section tr p {
+    font-size: 2.8vw;
+	margin: 0% 00px;
+	text-align: left;
+	line-height: 1.4;
+	margin-bottom: 15px;
+	width: auto;
+}
+.text-page section strong {
+    color: #AE924F;
+    font-size: 2.8vw;
+	line-height: 1;
+}
+.text-page table {
+    border-collapse: collapse;
+    font-size: 2.8vw;
+    width: auto;
+    margin: 0 0px;
+}
+.text-page th {
+    white-space: inherit;
+    font-weight: normal;
+    text-align: left;
+}
+.text-page th, .text-page td {
+    border: 1px solid #fff;
+    padding: 1vw;
+	text-align: left;
+	width: auto;
+}
+.text-page .sp th{
+    border: 1px solid #fff;
+    padding: 1vw;
+    text-align: left;
+	font-size: 2vw;
+	width: auto;
+}
+.text-page .sp td{
+	border: 1px solid #fff;
+    padding: 1vw;
+    text-align: center;
+	font-size: 2.5vw;
+	width: auto;
+}
+.text-page .sp th:nth-child(1){
+	width: 28%;
+}
+.text-page .sp td:nth-child(2){
+	width: 18%;
+}
+.text-page .sp td:nth-child(3){
+	width: 18%;
+}
+.text-page .sp td:nth-child(4){
+	width: 18%;
+}
+.text-page .sp td:nth-child(5){
+	width: 18%;
+}
+.text-page .sp thead th {
+    text-align: center;
+}
+.text-page table td a {
+    color: #AE924F;
+}
+.text-page table td a:hover {
+	color: #F2C049;
+}
+.text-page small {
+    font-size: 80%;
+	line-height: 1;
+}
+.pc {
+    display: none !important;
+}
+.text-page section .sp{
+	width: 100%;
+	margin: 0 0px;
+}
+.text-page #credit th{
+	width: 30%;
+	text-align: left;
+}
+.text-page #credit tr{
+	width: 100%;
+}
+.text-page #credit tbody{
+	width: 100%;
+}
+.text-page #bank th{
+	width: 30%;
+}
+.text-page #yucho tr:first-child{
+	width: 30%;
+}
+.text-page .furikomisaki{
+	width: 20%;
+}
+.text-page .haisou th{
+	width: 20%;
+}
+.text-page section tr p:last-child{
+	margin-bottom: 0;
+}
+@media screen and (min-width: 768px) {
+.sp {
+    display: none !important;
+}
+.pc {
+    display: block!important;
+}
+.text-page section{
+	margin: 0px 20px;
+	margin-bottom: 50px;
+}
+main {
+    color: #fff;
+    display: block;
+    margin: 80px 00px 0;
+}
+.simple-header {
+    height: 160px;
+}
+.page-title {
+    top: 45%;
+    font-size: 48px;
+    font-size: 4.8rem;
+}
+.simple-header .page-title {
+    font-size: 32px;
+	letter-spacing: 3px;
+	margin: 0 20px;
+}
+.text-page section h2 {
+    font-size: 28px;
+	margin: 15px 00px;
+	padding-bottom: 8px;
+}
+.text-page section p {
+    font-size: 20px;
+	margin: 15px 00px;
+	margin-bottom: 10px;
+}
+.text-page section strong {
+    font-size: 20px;
+	margin-bottom: 10px;
+}
+.text-page table {
+    border-collapse: collapse;
+    font-size: 20px;
+    width: 100%;
+    margin: 0 00px;
+}
+.text-page section td p {
+    font-size: 20px;
+    margin: 0% 00px;
+    text-align: justify;
+	margin-bottom: 10px;
+}
+.text-page section tr p {
+    font-size: 20px;
+    margin: 0% 00px;
+    text-align: justify;
+	margin-bottom: 10px;
+	line-height: 1.4;
+}
+.text-page #credit th {
+    width: 20%;
+    text-align: left;
+}
+.text-page .pc {
+    width: 100%;
+}
+.text-page .pc th{
+    border: 1px solid #fff;
+    padding: 10px;
+    text-align: left;
+	font-size: 1.8vw;
+}
+.text-page .pc td{
+	border: 1px solid #fff;
+    padding: 5px;
+    text-align: center;
+	font-size: 1.8vw;
+}
+.text-page .pc .souryou{
+	font-size: 15px;
+    padding: 20px;	
+}
+.text-page .pc th:nth-child(1){
+	width: 20%;
+}
+.text-page .pc td:nth-child(2){
+	width: 10%;
+}
+.text-page .pc td:nth-child(3){
+	width: 10%;
+}
+.text-page .pc td:nth-child(4){
+	width: 10%;
+}
+.text-page .pc td:nth-child(5){
+	width: 10%;
+}
+.text-page .pc td:nth-child(6){
+	width: 10%;
+}
+.text-page .pc td:nth-child(7){
+	width: 10%;
+}
+.text-page .pc td:nth-child(8){
+	width: 10%;
+}
+.text-page .pc td:nth-child(9){
+	width: 10%;
+}
+.text-page .pc thead th {
+    text-align: center;
+}
+.text-page small {
+    font-size: 70%;
+	line-height: 1;
+}
+}
+@media screen and (min-width: 920px) {
+.sp {
+    display: none !important;
+}
+.pc {
+    display: block!important;
+}
+.text-page section{
+	margin: 0px 00px;
+	margin-bottom: 50px;
+}
+main {
+    width: 1000px;
+    margin: 0 auto;
+}
+main::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.image-header, .simple-header {
+    width: 1000px;
+    height: 400px;
+    margin: 0 -200px;
+    padding: 0 200px;
+}
+.simple-header {
+    height: 160px;
+}
+.page-title {
+    top: 45%;
+    font-size: 48px;
+    font-size: 4.8rem;
+}
+.simple-header .page-title {
+    font-size: 32px;
+	letter-spacing: 15px;
+	margin: 0 00px;
+}
+.text-page section h2 {
+    font-size: 28px;
+	margin: 15px 00px;
+	padding-bottom: 8px;
+}
+.text-page section p {
+    font-size: 20px;
+	margin: 15px 00px;
+	margin-bottom: 10px;
+}
+.text-page section strong {
+    font-size: 20px;
+	margin-bottom: 10px;
+}
+.text-page table {
+    border-collapse: collapse;
+    font-size: 20px;
+    width: 100%;
+    margin: 0 00px;
+}
+.text-page section td p {
+    font-size: 20px;
+    margin: 0% 00px;
+    text-align: justify;
+	margin-bottom: 10px;
+}
+.text-page section tr p {
+    font-size: 20px;
+    margin: 0% 00px;
+    text-align: justify;
+	margin-bottom: 10px;
+	line-height: 1.4;
+}
+.text-page #credit th {
+    width: 20%;
+    text-align: left;
+}
+.text-page .pc {
+    width: 100%;
+}
+.text-page .pc th{
+    border: 1px solid #fff;
+    padding: 10px;
+    text-align: left;
+	font-size: 20px;
+}
+.text-page .pc td{
+	border: 1px solid #fff;
+    padding: 8px;
+    text-align: center;
+	font-size: 20px;
+}
+.text-page .pc .souryou{
+	font-size: 20px;
+    padding: 20px;	
+}
+.text-page .pc th:nth-child(1){
+	width: 20%;
+}
+.text-page .pc td:nth-child(2){
+	width: 10%;
+}
+.text-page .pc td:nth-child(3){
+	width: 10%;
+}
+.text-page .pc td:nth-child(4){
+	width: 10%;
+}
+.text-page .pc td:nth-child(5){
+	width: 10%;
+}
+.text-page .pc td:nth-child(6){
+	width: 10%;
+}
+.text-page .pc td:nth-child(7){
+	width: 10%;
+}
+.text-page .pc td:nth-child(8){
+	width: 10%;
+}
+.text-page .pc td:nth-child(9){
+	width: 10%;
+}
+.text-page .pc thead th {
+    text-align: center;
+}
+.text-page small {
+    font-size: 70%;
+	line-height: 1;
+}
+}

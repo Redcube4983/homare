@@ -1,0 +1,607 @@
+@charset "UTF-8";
+/* CSS Document */
+main {
+    color: #fff;
+    display: block;
+    margin: 80px 00px 0;
+}
+.company-overview{
+	margin: 0 20px;
+}
+.image-header, .simple-header {
+    width: 100vw;
+    height: 50vw;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    margin: 0 00px;
+}
+.simple-header {
+    height: 31.25vw;
+}
+.breadcrumb ul {
+    list-style: none;
+    margin: 0;
+    padding: 5px 20px;
+    overflow: hidden;
+    width: 100vw;
+}
+.simple-header .breadcrumb ul {
+	background-color: #383838;
+}
+.simple-header .page-title {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    text-align: center;
+    font-size: 6vw;
+    margin: 0;
+    font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+	letter-spacing: 2px;
+	font-weight: normal;
+}
+.heading-02 {
+    font-size: 3.75vw;
+    height: 5.625vw;
+    line-height: 5.625vw;
+    background-color: #AE924F;
+    color: #000;
+    text-align: center;
+}
+.contact-intro p {
+    width: auto;
+    margin: 0 0 30px;
+    color: #fff;
+    font-size: 3.2vw;
+    letter-spacing: 0px;
+    line-height: 5vw;
+	text-align: center;
+	font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+.table-wrap {
+    background-color: #fff;
+	padding-bottom: 4%;
+}
+.table-wrap table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.table-wrap th {
+    width: 100%;
+}
+.table-wrap th {
+    display: block;
+    background-color: #dcdcdc;
+    color: #000;
+    padding: 4vw 2vw;
+    font-size: 3.4375vw;
+    line-height: 0.8vw;
+    text-align: left;
+    box-sizing: border-box;
+	width: 100%!important;
+}
+.company-overview td, .company-overview td p {
+    text-align: center;
+	line-height: 1.8;
+}
+.table-wrap td {
+    display: block;
+    background-color: #fff;
+    color: #000;
+    padding: 2% 2%;
+    font-size: 14px;
+    line-height: 1.5;
+    float: left;
+    text-align: left;
+}
+.telephone {
+	width: 22vw !important;
+}
+.table-wrap p, .table-wrap input, .table-wrap select, .table-wrap textarea {
+    margin: 1vw 0;
+}
+.table-wrap .form-line {
+    display: block;
+    display: block;
+    -webkit-align-items: left;
+    align-items: left;
+    margin-left: 0;
+    float: left;
+    text-align: left;
+	width: 100%;
+}
+.label-notice, .label-required {
+    display: inline-block;
+    line-height: 1.618;
+    padding: 0 .618em;
+    border-radius: .309em;
+}
+.label-required {
+    color: #fff;
+    background-color: #D71C24;
+}
+.table-wrap .label-required {
+    margin-right: .5em;
+}
+.table-wrap .form-line > * {
+    margin-left: 0em;
+}
+.table-wrap .form-line code {
+    margin-left: 0;
+}
+.table-wrap .form-line > span {
+    white-space: nowrap;
+}
+.table-wrap tr:nth-child(7) td .error{
+	width: auto;
+}
+.table-wrap tr:nth-child(7) td .error:nth-child(2)::before{
+	content: "※メールアドレスが";
+}
+input[type="text"], input[type="tel"], input[type="email"], input[type="url"], input[type="search"], input[type="password"] {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #838383;
+    padding: 0px 0px 0px 2%;
+    font-size: 16px;
+    line-height: 1.5;
+    box-sizing: border-box;
+	vertical-align: middle;
+	box-shadow: none;
+	border-radius: 3px !important;
+}
+table .button, .button-white {
+    display: inline-block;
+    font-size: .8em;
+    line-height: 2em;
+    padding: 0 1em;
+    color: #fff;
+    background-color: #B1954F;
+    border-radius: .3em;
+    text-decoration: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+	font-size: 3vw;
+}
+.button-area .button {
+    display: inline-block;
+    font-size: 20px;
+    line-height: 2em;
+    padding: 0 1em;
+    color: #fff;
+    background-color: #B1954F;
+    border-radius: .3em;
+    text-decoration: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+}
+table .button-white {
+    background-color: #9D9D9D;
+}
+.postnumber{
+    width: 22vw !important;
+    height: 6.25vw;
+    border: 1px solid #838383;
+    padding: 0 .5em;
+    font-size: 3.4375vw;
+    line-height: 5.9375vw;
+    box-sizing: border-box;
+}
+select {
+    height: 6.25vw;
+    border: 0.15625vw solid #838383;
+    padding: 0 .5em;
+    font-size: 3.4375vw;
+    line-height: 5.9375vw;
+    box-sizing: border-box;
+}
+.table-wrap .form-caution {
+    font-size: 2.4vw;
+    line-height: 2.4vw;
+    color: #D71C24;
+    text-align: left;
+	float: left;
+}
+textarea {
+    width: 100%;
+    border: 1px solid #838383;
+    padding: 2% 2%;
+    font-size: 16px;
+	line-height: 1.4;
+    box-sizing: border-box;
+    text-align: justify;
+}
+.button-area {
+    font-size: 3.125vw;
+    text-align: center;
+}
+.contact-form-footer {
+    text-align: center;
+    margin-top: 3.125vw;
+}
+.contact-form-footer a {
+    color: #fff;
+    font-size: 2.8125vw;
+    line-height: 4.375vw;
+}
+.mw_wp_form .error {
+    font-size: 80%!important;
+    color: #B70000;
+    display: block;
+    width: 50%;
+    float: left;
+	text-align: left;
+}
+.mw_wp_form .error::before{
+	content: "※";
+}
+.form-group:first-child .form-line input[type="text"] {
+    width: 35%;	
+	margin-right: 2.5%;
+    margin-left: 0.5%;
+}
+.form-group:nth-child(2) .form-line input[type="text"]{
+	width: 35%;	
+	margin-right: 2.5%;
+    margin-left: 0.5%;
+}
+#postnumber{
+	width: 100%;
+	margin-bottom: 2%;
+}
+#postnumber a{
+	margin-left: 2%;
+}
+tbody tr:nth-child(3) .form-line:nth-child(2) a{
+	float: left;
+}
+tbody tr:nth-child(3) .form-line:nth-child(2) p {
+    font-size: 2.8vw;
+    float: left;
+    margin: 0 0% 0% 2%;
+    line-height: 2.2;
+}
+.form-group:last-child th br{
+	display: none;
+}
+.contact-intro p sp{
+	display: none;
+}
+.contact-thanks {
+    background-color: #fff;
+    color: #000;
+    padding: 7.8125vw 3.125vw;
+}
+.contact-thanks h2 {
+    color: #B1954F;
+    font-size: 4.0625vw;
+    line-height: 5.625vw;
+    margin-bottom: 3.90625vw;
+    text-align: center;
+}
+.contact-thanks p {
+    font-size: 2.8125vw;
+    line-height: 3.90625vw;
+    margin-bottom: 7.8125vw;
+    text-align: center;
+}
+.button-area {
+    font-size: 3.125vw;
+    text-align: center;
+}
+@media screen and (min-width: 768px) {
+main {
+    color: #fff;
+    display: block;
+    margin: 80px 00px 0;
+}
+.company-overview {
+    margin: 0 20px;
+}
+.simple-header {
+    height: 160px;
+}
+.page-title {
+    top: 45%;
+    font-size: 48px;
+    font-size: 4.8rem;
+}
+.simple-header .page-title {
+    font-size: 32px;
+	letter-spacing: 15px;
+}
+.heading-02 {
+    font-size: 24px;
+    height: 36px;
+    line-height: 36px;
+}
+.contact-intro p {
+    font-size: 21pt;
+    line-height: 1.76;
+    font-size: 21px;
+	letter-spacing: 5px;
+}
+.contact-intro p sp{
+	display: inline;
+}
+}
+@media screen and (min-width: 920px) {
+.table-wrap {
+    border: solid 20px #fff;
+    box-sizing: border-box;
+}
+.company-overview th, .company-overview td, .company-overview td p {
+    text-align: left;
+	line-height: 1.4;
+}
+.table-wrap th {
+    display: table-cell;
+    padding: 25px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    border: 1px solid #838383;
+        border-left-width: 1px;
+        border-left-style: solid;
+        border-left-color: rgb(131, 131, 131);
+    border-left: none;
+    vertical-align: top;
+    font-weight: normal;
+    box-sizing: border-box;
+	width: 38% !important;
+}
+.table-wrap td {
+    display: table-cell;
+    padding: 13px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    border: 1px solid #838383;
+        border-right-width: 1px;
+        border-right-style: solid;
+        border-right-color: rgb(131, 131, 131);
+    border-right: none;
+    box-sizing: border-box;
+	float: none;
+}
+.table-wrap .form-line {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    margin-left: 0;
+	float: left;
+}
+.table-wrap .form-line code {
+    margin-left: 0;
+	display: block;
+}
+.table-wrap p, .table-wrap input, .table-wrap select, .table-wrap textarea {
+    margin: 7px 0;
+}
+.table-wrap td {
+    font-size: 18px;
+    line-height: 20px;
+}
+input[type="text"], input[type="tel"], input[type="email"], input[type="url"], input[type="search"], input[type="password"] {
+    height: 40px;
+    font-size: 22px;
+    line-height: 38px;
+}
+select {
+    height: 40px;
+    border: 1px solid #838383;
+    font-size: 22px;
+    line-height: 38px;
+}
+.form-group:first-child .form-line input[type="text"]{
+	width: 40%;	
+	margin-right: 30px;
+	margin-left: .5em;
+}
+.form-group:nth-child(2) .form-line input[type="text"]{
+	width: 40%;	
+	margin-right: 0px;
+	margin-left: .5em;
+}
+.table-wrap .form-line > * {
+    margin-left: 2px;
+}
+.button-white {
+    background-color: #9D9D9D;
+    width: 28%;
+    padding: 6% 2% 1%;
+    text-align: center;
+    line-height: 2.5;
+}
+main {
+    width: 1000px;
+    margin: 0 auto;
+}
+main::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.company-overview {
+    margin: 0 00px;
+}
+.image-header, .simple-header {
+    width: 1000px;
+    height: 400px;
+    margin: 0 -200px;
+    padding: 0 200px;
+}
+.simple-header {
+    height: 160px;
+}
+.page-title {
+    top: 45%;
+    font-size: 48px;
+    font-size: 4.8rem;
+}
+.simple-header .page-title {
+    font-size: 32px;
+	letter-spacing: 15px;
+}
+.heading-02 {
+    font-size: 24px;
+    height: 36px;
+    line-height: 36px;
+}
+.table-wrap {
+    border: solid 20px #fff;
+    box-sizing: border-box;
+}
+.company-overview th, .company-overview td, .company-overview td p {
+    text-align: left;
+	line-height: 1.4;
+}
+.table-wrap th {
+    display: table-cell;
+    padding: 25px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    border: 1px solid #838383;
+        border-left-width: 1px;
+        border-left-style: solid;
+        border-left-color: rgb(131, 131, 131);
+    border-left: none;
+    vertical-align: top;
+    font-weight: normal;
+    box-sizing: border-box;
+	width: 300px !important;
+}
+.table-wrap td {
+    display: table-cell;
+    padding: 13px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    border: 1px solid #838383;
+        border-right-width: 1px;
+        border-right-style: solid;
+        border-right-color: rgb(131, 131, 131);
+    border-right: none;
+    box-sizing: border-box;
+}
+.table-wrap p, .table-wrap input, .table-wrap select, .table-wrap textarea {
+    margin: 7px 0;
+}
+.form-line .name01 ,.form-line .name02{
+	width: 40%;	
+}
+.form-line .name01{
+	margin-right: 30px;	
+}
+.form-line .kana01 ,.form-line .kana02{
+	width: 40%;	
+}
+.form-line .kana01{
+	margin-right: 30px!important;		
+}
+#addr01 ,#addr02{
+	width: 81%;		
+}
+#pref{
+	width: 200px;	
+}
+#postnumber{
+    font-size: 18px;
+    line-height: 20px;
+}
+.postnumber{
+    font-size: 3.4375vw;
+	width: auto !important;
+}
+.telephone {
+    width: auto !important;
+}
+.table-wrap .form-caution {
+    font-size: 18px;
+    line-height: 18px;
+}
+textarea {
+    border: 1px solid #838383;
+    font-size: 22px;
+    line-height: 38px;
+}
+.button-area {
+    font-size: 20px;
+	margin-top: 10px;
+}
+.contact-form-footer {
+    margin-top: 20px;
+}
+.contact-form-footer a {
+    font-size: 18px;
+    line-height: 28px;
+	color: #fff;
+}
+.table-wrap .form-line > * {
+    margin-left: .5em;
+}
+.button-white {
+    background-color: #9D9D9D;
+    width: auto;
+    text-align: center;
+    line-height: 2;
+}
+.table-wrap .form-line {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    margin-left: 0;
+    float: left;
+}
+tbody tr:nth-child(3) .form-line{
+	float: none;
+}
+tbody tr:nth-child(3) .form-line:nth-child(2) p {
+    font-size: 18px;
+}
+.form-group:last-child th br{
+	display: inline;
+}
+.form-group:last-child th{
+	line-height: 35px;
+}
+.button, {
+    display: inline-block;
+    font-size: 1em;
+    line-height: 2em;
+    padding: 0 1em;
+    color: #fff;
+    background-color: #B1954F;
+    border-radius: .3em;
+    text-decoration: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+}
+table .button, .button-white {
+    font-size: .8em;
+ }
+.contact-thanks {
+    padding: 50px 20px;
+}
+.contact-thanks h2 {
+    font-size: 26px;
+    line-height: 36px;
+    margin-bottom: 25px;
+}
+.contact-thanks p {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+.button-area {
+    font-size: 20px;
+}
+main::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+}
