@@ -22,8 +22,7 @@ Template Name: premium-fl
 日本酒をリッチに90％配合し、<br class="sp" />
 年齢とともに気になる「たるみ」にアプローチ。<br/>
 年齢を重ねた肌をハリとうるおいで満たし、<br class="sp" />
-エイジレス<sup>※2</sup>な肌に導きます。</p>
-<p style="text-align: right;"><small style="font-size: 1.4rem; text-align: right;">※2：年齢を感じさせない肌のこと</small></p>
+エイジレスな肌<sup>※2</sup>に導きます。</p>
 </section>
 <section class="premium-fl-sec1">
 <div class="premium-fl-point">
@@ -45,14 +44,14 @@ Template Name: premium-fl
 <p class="premium-fl-sec2-title">「本当に必要な成分しかいらない」<br>Madame Mikikoがたどり着いた<br>こだわりのエイジングケア化粧水</p>
 <p class="premium-fl-sec2-speech">くすみやシミの悩みに加え、年齢とともに「たるみ」が気になり始めた、ほまれ酒造の女将 Madame Mikiko
     は、自分の化粧水にたるみに着目した成分を新たにプラス。厳選した美容成分も加え、贅沢なエイジングケア<sup>※3</sup>化粧水に仕上げました。<br>
-	<small">※1：角質層まで ※2：年齢を感じさせない肌のこと ※3：年齢肌に応じたケアのこと</small>
+	<small style="font-size: 1.6rem; text-align: left; line-height:3; color:#fff ;width: 100%; display: block;">※1：角質層まで ※2：年齢を感じさせない肌のこと ※3：年齢肌に応じたケアのこと</small>
 </p>
 <figure class="premium-fl-sec2-pic">
 <img src="<?php echo( get_stylesheet_directory_uri() ); ?>/images/cosme/karahashimikiko.jpg" width="100%" alt="唐橋 美紀子">
 </figure>
 </section>
 <section class="premium-fl-sec3">
-<a class="buy-link" href="<?php echo esc_url( home_url( ) ); ?>/ec/plugin_rcsearch_result?name=%E3%81%BB%E3%81%BE%E3%82%8CPREMIUM&orderby=&disp_number="><i class="fas fa-caret-right"></i>お買い求めはこちら</a>
+<a class="buy-link" href="https://shop.aizuhomare.jp/i/780100"><i class="fas fa-caret-right"></i>お買い求めはこちら</a>
 </section>
 <section class="premium-fl-sec4">
 <h2>必要成分だけにこだわった<br class="sp" />シンプルな処方</h2>
@@ -144,7 +143,7 @@ Template Name: premium-fl
 「秘伝の化粧水」シリーズ第2弾！
 </p>
 <h2 class="premium-fl-sec5-catch">ほまれＰＲＥＭＩＵＭ化粧水</h2>
-<a class="buy-link" href="<?php echo esc_url( home_url( ) ); ?>/ec/plugin_rcsearch_result?name=%E3%81%BB%E3%81%BE%E3%82%8CPREMIUM&orderby=&disp_number="><i class="fas fa-caret-right"></i>お買い求めはこちら</a>
+<a class="buy-link" href="https://shop.aizuhomare.jp/i/780100"><i class="fas fa-caret-right"></i>お買い求めはこちら</a>
 <p class="ml">容量：150ml</p>
 <figure>
 <img src="<?php echo( get_stylesheet_directory_uri() ); ?>/images/premium-fl/premium-fl.png" width="100%" alt="ほまれPREMIUM化粧水">
