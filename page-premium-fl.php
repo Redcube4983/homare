@@ -66,7 +66,7 @@ Template Name: premium-fl
 </div>
 <div class="kodawari-box">
 <h3>たるみに着目した成分を厳選</h3>
-    <p>たるみにアプローチするシンハイカン<small>(保湿成分)</small><sup>※5</sup>とプロテオグリカン<small>(保湿成分)</small><sup>※6</sup>を配合。ヒアルロン酸をサポートし、顔のたるみにアプローチします。エイジングケアに役立つ成分といわれているピクノジェノール<sup>※7</sup>も配合しました。
+    <p>たるみにアプローチするシンハイカン<small>(保湿成分)</small><sup>※5</sup>とプロテオグリカン<small>(保湿成分)</small><sup>※6</sup>を配合。ヒアルロン酸をサポートし、顔のたるみにアプローチします。エイジングケア<sup>※3</sup>に役立つ成分といわれているピクノジェノール<sup>※7</sup>も配合しました。
 </p>
 <figure>
 <img src="<?php echo( get_stylesheet_directory_uri() ); ?>/images/premium-fl/premium-fl_image02.jpg" width="100%" alt="日本酒を90％に増量"><small style="text-align: left; line-height:1.5; color:#000;width: 100%; display: block;">画像はイメージです。</small></figure>
