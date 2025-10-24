@@ -79,7 +79,7 @@ Template Name: page-unreian
 						<br>
 						<br>
 						【案内開始時間】<br>
-						10時30分 ／ 11時30分 ／ 14時30分
+						10時15分 ／ 11時15分 ／ 14時15分
 						</p>
 				</div>
 				<div class="corporate-customer">
