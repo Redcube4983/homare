@@ -38,38 +38,38 @@ get_header();?>
 <h2>会津ほまれ 化粧水<br />美容効果を期待できる<br class="sp" />3つの理由</h2>
 <section class="cosme-sec3-sec1">
 <h3>日本酒による『保湿美肌成分』</h3>
-<p>お米から造られる発酵液である日本酒には、肌の保湿機能を整えるアミノ酸類やお肌に良い成分が含まれています。会津ほまれ化粧水には、飯豊山の伏流水で仕込んだ『会津ほまれ』の純米酒<sup>※1</sup>を６０％も配合。さらに、保湿の持続性を補助する『ユズセラミド<sup>※2</sup>』と『尿素<sup>※3</sup>』も配合し保湿効果をより高めています。</p>
+<p>会津ほまれ化粧水には、飯豊山の伏流水で仕込んだ『会津ほまれ』の純米酒を６０％も配合。さらに、保湿の持続性を補助する『ユズセラミド<sup>※1</sup>』と『尿素<sup>※2</sup>』も配合し保湿効果をより高めています。</p>
 <figure>
 <!--<figcaption>【高保湿力と持続力を実証】　※他社比較の保湿実験</figcaption>
 <img src="</?php echo( get_stylesheet_directory_uri() ); ?>/images/cosme/kakushitugraph.jpg" width="100%" alt="他社比較の保湿実験グラフ">-->
-<p style="text-align: center; line-height:1.2; margin: 10px 0 30px;"><small>※1：コメ発酵液（湿潤剤） ※2:ユズ果実エキス（湿潤剤） ※3:尿素（湿潤剤）</small></p>
+<p style="text-align: center; line-height:1.2; margin: 10px 0 30px;"><small>※1:ユズ果実エキス（湿潤剤） ※2:尿素（湿潤剤）</small></p>
 </figure>
 </section>
 <section class="cosme-sec3-sec2">
 <h3 class="kaigyou">厳選した３種の植物エキスと<br class="sp sp2" />ハーブによる『整肌成分』</h3><div class="cosme-sec3-sec2-list">
 <dl>
 <dt>
-<img src="<?php echo( get_stylesheet_directory_uri() ); ?>/images/cosme/yukinoshita.jpg" width="100%" alt="ユキノシタ">
-ユキノシタ
+<img src="<?php echo( get_stylesheet_directory_uri() ); ?>/images/cosme/yukinoshita.jpg" width="100%" alt="ユキノシタエキス">
+ユキノシタエキス
 </dt>
 <!--<dd>ユキノシタの全草から抽出します。エイジングケア用化粧品などに配合されることが多く、抗菌作用があります。</dd>-->
 </dl>
 <dl>
 <dt>
-<img  class="line" src="<?php echo( get_stylesheet_directory_uri() ); ?>/images/cosme/souhakuhi.jpg" width="100%" alt="ユキノシタ">ソウハクヒ
+<img  class="line" src="<?php echo( get_stylesheet_directory_uri() ); ?>/images/cosme/souhakuhi.jpg" width="100%" alt="マグワ根皮エキス">マグワ根皮エキス
 </dt>
 <!--<dd>クワの根の皮を乾燥させたものから抽出したエキスです。抗酸化作用や抗炎症作用があります。</dd>-->
 </dl>
 <dl>
 <dt>
-<img  class="line" src="<?php echo( get_stylesheet_directory_uri() ); ?>/images/cosme/botanpi.jpg" width="100%" alt="ユキノシタ">ボタンピ
+<img  class="line" src="<?php echo( get_stylesheet_directory_uri() ); ?>/images/cosme/botanpi.jpg" width="100%" alt="ボタンエキス">ボタンエキス
 </dt>
 <!--<dd>ボタンの根皮からエタノールで抽出したエキスです。 抗炎症作用に優れ、血行促進作用があります。
 </dd>-->
 </dl>
 <dl>
 <dt>
-<img src="<?php echo( get_stylesheet_directory_uri() ); ?>/images/cosme/lavender.jpg" width="100%" alt="ユキノシタ">ラベンダー
+<img src="<?php echo( get_stylesheet_directory_uri() ); ?>/images/cosme/lavender.jpg" width="100%" alt="ラベンダー油">ラベンダー油
 </dt>
 <!--<dd>シソ科の低木常緑樹、ラベンダーから採取されるオイルです。優れたリラクゼーション効果で有名ですが、消炎作用にも優れお肌を整えます。
 </dd>-->
@@ -79,7 +79,7 @@ get_header();?>
 </section>
 <section class="cosme-sec3-sec3">
 <h3 class="kaigyou">お肌にうるおいを与える<br class="sp sp2" />『ビタミン成分』</h3>
-<img src="<?php echo( get_stylesheet_directory_uri() ); ?>/images/cosme/cosme_image2.jpg" width="100%" alt="ほまれ化粧水イメージ"><p>低刺激で安定した油溶性ビタミンC誘導体<sup>※4</sup>。ビタミンC誘導体<sup>※4</sup>は、毛穴やキメが気になる肌にうるおいを与え、明るくなめらかな肌へ導きます。</p><p style="line-height:1.2;"><small>※4：テトラへキシルデカン酸アスコルビル（油脂剤）</small></p>
+<img src="<?php echo( get_stylesheet_directory_uri() ); ?>/images/cosme/cosme_image2.jpg" width="100%" alt="ほまれ化粧水イメージ"><p>低刺激で安定した油溶性ビタミンC誘導体<sup>※3</sup>。ビタミンC誘導体<sup>※3</sup>は、毛穴やキメが気になる肌にうるおいを与え、明るくなめらかな肌へ導きます。</p><p style="line-height:1.2;"><small>※3：テトラへキシルデカン酸アスコルビル（油脂剤）</small></p>
 </section>
 <a class="buy-link" href="<?php echo esc_url( home_url( ) ); ?>/ec/plugin_rcsearch_result?name=會津ほまれ+化粧水&checkbox3[]=90&orderby=&disp_number="><i class="fas fa-caret-right"></i>お買い求めはこちら</a>
 </section>
