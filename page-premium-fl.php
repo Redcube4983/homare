@@ -59,7 +59,7 @@ Template Name: premium-fl
 <div id="kodawari">
 <div class="kodawari-box">
 <h3>日本酒を90％に増量</h3>
-<p>「ほまれ化粧水」の保湿力のカギである日本酒の配合量を60％から90％に増量しました。さっぱりとした使用感なので、しっとり肌に導きます。
+<p>「ほまれ化粧水」の保湿力のカギである日本酒の配合量を60％から90％に増量しました。さっぱりとした使用感で、しっとり肌に導きます。
 </p>
 <figure>
 <img src="<?php echo( get_stylesheet_directory_uri() ); ?>/images/premium-fl/premium-fl_image01.jpg" width="100%" alt="日本酒を90％に増量"><small style="text-align: left; line-height:1.5; color:#000;width: 100%; display: block;">画像はイメージです。</small></figure>
