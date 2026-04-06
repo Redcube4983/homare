@@ -44,7 +44,7 @@ Template Name: premium-fl
 <p class="premium-fl-sec2-title">「本当に必要な成分しかいらない」<br>Madame Mikikoがたどり着いた<br>こだわりのエイジングケア化粧水</p>
 <p class="premium-fl-sec2-speech">くすみやシミの悩みに加え、年齢とともに「たるみ」が気になり始めた、ほまれ酒造の女将 Madame Mikiko
     は、自分の化粧水にたるみに着目した成分を新たにプラス。厳選した美容成分も加え、贅沢なエイジングケア<sup>※3</sup>化粧水に仕上げました。<br>
-	<small style="font-size: 1.6rem; text-align: left; line-height:3; color:#fff ;width: 100%; display: block;">※1：年齢を感じさせない肌のこと ※2：角層まで ※3：年齢肌に応じたケアのこと</small>
+	<small style="font-size: 1.6rem; text-align: left; line-height:3; color:#fff ;width: 100%; display: block;">※1：年齢を感じさせない肌のこと&emsp;※2：角層まで&emsp;※3：年齢肌に応じたケアのこと</small>
 </p>
 <figure class="premium-fl-sec2-pic">
 <img src="<?php echo( get_stylesheet_directory_uri() ); ?>/images/cosme/karahashimikiko.jpg" width="100%" alt="唐橋 美紀子">
