@@ -38,7 +38,7 @@ get_header();?>
 <h2>会津ほまれ 化粧水<br />美容効果を期待できる<br class="sp" />3つの理由</h2>
 <section class="cosme-sec3-sec1">
 <h3>日本酒による『保湿美肌成分』</h3>
-<p>会津ほまれ化粧水には、飯豊山の伏流水で仕込んだ『会津ほまれ』の純米酒を６０％も配合。さらに、保湿の持続性を補助する『ユズセラミド<sup>※1</sup>』と『尿素<sup>※2</sup>』も配合し保湿効果をより高めています。</p>
+<p>会津ほまれ化粧水には、飯豊山の伏流水で仕込んだ『会津ほまれ』の純米酒を６０％も配合。さらに、保湿の持続性を補助する『ユズセラミド<sup>※1</sup>』と『尿素<sup>※2</sup>』も配合しています。</p>
 <figure>
 <!--<figcaption>【高保湿力と持続力を実証】　※他社比較の保湿実験</figcaption>
 <img src="</?php echo( get_stylesheet_directory_uri() ); ?>/images/cosme/kakushitugraph.jpg" width="100%" alt="他社比較の保湿実験グラフ">-->
