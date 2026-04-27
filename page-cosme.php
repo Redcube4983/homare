@@ -14,7 +14,7 @@ get_header();?>
 </div>
 <section class="cosme-intro">
 <h2>酒蔵の女将だから開発できた<br/>「秘伝の化粧水」</h2>
-<p>日本酒に含まれる多くの美肌成分を最大限に引き出し、<br class="sp" />必要な機能を一本に凝縮。<br /> 会津ほまれの高品質な日本酒を活かした<br />高保湿、<br class="sp" />高機能の『発酵美容』型の化粧水です。<br /> 女将・マダム美紀子が20年以上の研究と試作を繰り返し、<br /> 健康科学メーカ―日本ゼトック株式会社との業務提携により<br />実現することが出来ました。</p>
+<p>日本酒に含まれる多くの成分を最大限に引き出し、<br class="sp" />必要な機能を一本に凝縮。<br /> 会津ほまれの高品質な日本酒を活かした<br />高保湿、<br class="sp" />高機能の『発酵美容』型の化粧水です。<br /> 女将・マダム美紀子が20年以上の研究と試作を繰り返し、<br /> 健康科学メーカ―日本ゼトック株式会社との業務提携により<br />実現することが出来ました。</p>
 </section>
 <div class="cosme-sec1">
 <div class="cosme-sec1-person">
@@ -35,14 +35,14 @@ get_header();?>
 </figure>
 </div>
 <section class="cosme-sec3">
-<h2>会津ほまれ 化粧水<br />美容効果を期待できる<br class="sp" />3つの理由</h2>
+<h2>会津ほまれ 化粧水<br />美しいお肌をサポートする<br class="sp" />3つの理由</h2>
 <section class="cosme-sec3-sec1">
-<h3>日本酒による『保湿美肌成分』</h3>
-<p>会津ほまれ化粧水には、飯豊山の伏流水で仕込んだ『会津ほまれ』の純米酒を６０％も配合。さらに、保湿の持続性を補助する『ユズセラミド<sup>※1</sup>』と『尿素<sup>※2</sup>』も配合しています。</p>
+<h3>日本酒<sup>※1</sup>による『保湿美肌成分』</h3>
+<p>会津ほまれ化粧水には、飯豊山の伏流水で仕込んだ『会津ほまれ』の純米酒を６０％も配合。さらに、お肌のうるおいを守る『ユズセラミド<sup>※2</sup>』と『尿素<sup>※3</sup>』も配合しています。</p>
 <figure>
 <!--<figcaption>【高保湿力と持続力を実証】　※他社比較の保湿実験</figcaption>
 <img src="</?php echo( get_stylesheet_directory_uri() ); ?>/images/cosme/kakushitugraph.jpg" width="100%" alt="他社比較の保湿実験グラフ">-->
-<p style="text-align: center; line-height:1.2; margin: 10px 0 30px;"><small>※1:ユズ果実エキス（湿潤剤） ※2:尿素（湿潤剤）</small></p>
+<p style="text-align: center; line-height:1.2; margin: 10px 0 30px;"><small>※1:コメ発酵液（湿潤剤） ※2:ユズ果実エキス（湿潤剤） ※3:尿素（湿潤剤）</small></p>
 </figure>
 </section>
 <section class="cosme-sec3-sec2">
@@ -79,19 +79,19 @@ get_header();?>
 </section>
 <section class="cosme-sec3-sec3">
 <h3 class="kaigyou">お肌にうるおいを与える<br class="sp sp2" />『ビタミン成分』</h3>
-<img src="<?php echo( get_stylesheet_directory_uri() ); ?>/images/cosme/cosme_image2.jpg" width="100%" alt="ほまれ化粧水イメージ"><p>低刺激で安定した油溶性ビタミンC誘導体<sup>※3</sup>。ビタミンC誘導体<sup>※3</sup>は、毛穴やキメが気になる肌にうるおいを与え、明るくなめらかな肌へ導きます。</p><p style="line-height:1.2;"><small>※3：テトラへキシルデカン酸アスコルビル（油脂剤）</small></p>
+<img src="<?php echo( get_stylesheet_directory_uri() ); ?>/images/cosme/cosme_image2.jpg" width="100%" alt="ほまれ化粧水イメージ"><p>低刺激で安定した油溶性ビタミンC誘導体<sup>※4</sup>。ビタミンC誘導体<sup>※4</sup>は、毛穴やキメが気になる肌にうるおいを与え、明るくなめらかな肌へ導きます。</p><p style="line-height:1.2;"><small>※4：テトラへキシルデカン酸アスコルビル（油脂剤）</small></p>
 </section>
 <a class="buy-link" href="<?php echo esc_url( home_url( ) ); ?>/ec/plugin_rcsearch_result?name=會津ほまれ+化粧水&checkbox3[]=90&orderby=&disp_number="><i class="fas fa-caret-right"></i>お買い求めはこちら</a>
 </section>
 <section class="cosme-sec4">
 <h2><span class="cosme-sec4-heading">新商品<br />ほまれＰＲＥＭＩＵＭ化粧水</span></h2>
 <p class="cosme-sec4-text">会津ほまれ化粧水から<br class="tab" />プレミアムバージョンが登場します。<br />
-「ほまれ化粧水」の保湿力のカギである<br class="sp" />
+「ほまれ化粧水」のうるおいのカギである<br class="sp" />
 日本酒の配合量を<br />
 60％から90％へ高配合した化粧水です<br />
-年齢とともに気になる「たるみ」に徹底アプローチし、<br />
+年齢とともに気になる「ハリ不足のお肌」に徹底アプローチし、<br />
 年齢を重ねた肌をハリと潤いで満たし、<br class="sp" />
-より若く、美しい肌を実現します。
+より若々しく、美しい肌へ。
 </p>
 <p class="cosme-sec4-catch">さっぱりとした使用感！<br />
 <br />

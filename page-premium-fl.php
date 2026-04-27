@@ -20,7 +20,7 @@ Template Name: premium-fl
 <h2>酒蔵の女将が開発、日本酒で造られた<br/>「秘伝の化粧水」シリーズ第2弾！</h2>
 <p>会津ほまれ化粧水からプレミアムが新登場！<br/>
 日本酒をリッチに90％配合し、<br class="sp" />
-年齢とともに気になる「たるみ」にアプローチ。<br/>
+年齢とともに気になる「ハリ不足のお肌」にアプローチ。<br/>
 年齢を重ねた肌をハリとうるおいで満たし、<br class="sp" />
 エイジレスな肌<sup>※1</sup>に導きます。</p>
 </section>
@@ -31,7 +31,7 @@ Template Name: premium-fl
         <p>肌しっとり!</p>
 	</div>
 	<div class="premium-fl-point-box">
-		<h3>たるみにアプローチ</h3>
+		<h3>ハリ不足のお肌にアプローチ</h3>
 		<p>弾力とハリのある肌へ!</p>
 	</div>
 	<div class="premium-fl-point-box">
@@ -42,8 +42,8 @@ Template Name: premium-fl
 </section>
 <section class="premium-fl-sec2">
 <p class="premium-fl-sec2-title">「本当に必要な成分しかいらない」<br>Madame Mikikoがたどり着いた<br>こだわりのエイジングケア化粧水</p>
-<p class="premium-fl-sec2-speech">くすみやシミの悩みに加え、年齢とともに「たるみ」が気になり始めた、ほまれ酒造の女将 Madame Mikiko
-    は、自分の化粧水にたるみに着目した成分を新たにプラス。厳選した美容成分も加え、贅沢なエイジングケア<sup>※3</sup>化粧水に仕上げました。<br>
+<p class="premium-fl-sec2-speech">くすみやシミの悩みに加え、年齢とともに「ハリ不足の肌」が気になり始めた、ほまれ酒造の女将 Madame Mikiko
+    は、自分の化粧水にハリ不足の肌に着目した成分を新たにプラス。厳選した成分も加え、贅沢なエイジングケア<sup>※3</sup>化粧水に仕上げました。<br>
 	<small style="font-size: 1.6rem; text-align: left; line-height:3; color:#fff ;width: 100%; display: block;">※1：年齢を感じさせない肌のこと&emsp;※2：角層まで&emsp;※3：年齢肌に応じたケアのこと</small>
 </p>
 <figure class="premium-fl-sec2-pic">
@@ -59,14 +59,14 @@ Template Name: premium-fl
 <div id="kodawari">
 <div class="kodawari-box">
 <h3>日本酒<sup>※4</sup>を90％に増量</h3>
-<p>「ほまれ化粧水」の保湿力のカギである日本酒の配合量を60％から90％に増量しました。さっぱりとした使用感で、しっとり肌に導きます。
+<p>「ほまれ化粧水」のうるおいのカギである日本酒の配合量を60％から90％に増量しました。さっぱりとした使用感で、しっとり肌に導きます。
 </p>
 <figure>
 <img src="<?php echo( get_stylesheet_directory_uri() ); ?>/images/premium-fl/premium-fl_image01.jpg" width="100%" alt="日本酒を90％に増量"><small style="text-align: left; line-height:1.5; color:#000;width: 100%; display: block;">画像はイメージです。</small></figure>
 </div>
 <div class="kodawari-box">
-<h3>たるみに着目した成分を厳選</h3>
-    <p>たるみにアプローチするシンハイカン<small>(保湿成分)</small><sup>※5</sup>とプロテオグリカン<small>(保湿成分)</small><sup>※6</sup>を配合。ヒアルロン酸をサポートし、顔のたるみにアプローチします。エイジングケア<sup>※3</sup>に役立つ成分といわれているピクノジェノール<sup>※7</sup>も配合しました。
+<h3>ハリが不足しているお肌に着目した成分を厳選</h3>
+    <p>ハリ不足の肌にアプローチするシンハイカン<small>(保湿成分)</small><sup>※5</sup>とプロテオグリカン<small>(保湿成分)</small><sup>※6</sup>を配合。ヒアルロン酸をサポートし、ハリ不足の肌にアプローチします。エイジングケア<sup>※3</sup>に役立つ成分といわれているピクノジェノール<sup>※7</sup>も配合しました。
 </p>
 <figure>
 <img src="<?php echo( get_stylesheet_directory_uri() ); ?>/images/premium-fl/premium-fl_image02.jpg" width="100%" alt="日本酒を90％に増量"><small style="text-align: left; line-height:1.5; color:#000;width: 100%; display: block;">画像はイメージです。</small></figure>
@@ -79,7 +79,7 @@ Template Name: premium-fl
 <img src="<?php echo( get_stylesheet_directory_uri() ); ?>/images/premium-fl/premium-fl_image03.jpg" width="100%" alt="日本酒を90％に増量"><small style="text-align: left; line-height:1.5; color:#000;width: 100%; display: block;">画像はイメージです。</small></figure>
 </div>
 <div class="kodawari-box">
-<h3>美肌植物由来・美容成分配合</h3>
+<h3>美肌植物由来の成分を配合</h3>
 <p>米セラミド<sup>※9</sup>に加え、ウワウルシエキス<sup>※10</sup>・ザクロ果皮エキス<sup>※11</sup>・月桃葉エキス<sup>※12</sup>・紫根エキス<sup>※13</sup>・α-アルブチン<sup>※14</sup>・アセチルグルコサミン<sup>※15</sup>・
 ナイアシンアミド<sup>※16</sup>・グリシルグリシン<sup>※17</sup>など、配合成分の全てが乾燥によるくすみが気になる肌にうるおいを与え、年齢を重ねた肌をサポートします。
 </p>
@@ -103,7 +103,7 @@ Template Name: premium-fl
 </div>
 <div class="squareBox">
 <div class="content">
-<p>年齢とともに気になる<br>「たるみ」にアプローチ</p>
+<p>年齢とともに気になる<br>「ハリ不足の肌」にアプローチ</p>
 <h3>弾力とハリ感で<br>イキイキとした<br>エイジレスな<br>肌<sup><small>※1</small></sup>へ!</h3>
 </div>
 </div>
