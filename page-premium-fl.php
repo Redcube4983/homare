@@ -31,7 +31,7 @@ Template Name: premium-fl
         <p>肌しっとり!</p>
 	</div>
 	<div class="premium-fl-point-box">
-		<h3>ハリ不足のお肌にアプローチ</h3>
+		<h3>ハリ不足のお肌に<br class="pc">アプローチ</h3>
 		<p>弾力とハリのある肌へ!</p>
 	</div>
 	<div class="premium-fl-point-box">
@@ -103,7 +103,7 @@ Template Name: premium-fl
 </div>
 <div class="squareBox">
 <div class="content">
-<p>年齢とともに気になる<br>「ハリ不足の肌」にアプローチ</p>
+<p>年齢とともに気になる<br>「ハリ不足の肌」に<br>アプローチ</p>
 <h3>弾力とハリ感で<br>イキイキとした<br>エイジレスな<br>肌<sup><small>※1</small></sup>へ!</h3>
 </div>
 </div>

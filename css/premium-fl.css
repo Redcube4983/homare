@@ -1181,4 +1181,7 @@ section p{
     font-size: 15px;
 	background:none;
 }
+.premium-fl-point-box h3{
+	line-height: 1.2;
+}
 }
