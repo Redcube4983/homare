@@ -44,7 +44,7 @@ Template Name: premium-fl
 <p class="premium-fl-sec2-title">「本当に必要な成分しかいらない」<br>Madame Mikikoがたどり着いた<br>こだわりのエイジングケア化粧水</p>
 <p class="premium-fl-sec2-speech">くすみやシミの悩みに加え、年齢とともに「ハリ不足の肌」が気になり始めた、ほまれ酒造の女将 Madame Mikiko
     は、自分の化粧水にハリ不足の肌に着目した成分を新たにプラス。厳選した成分も加え、贅沢なエイジングケア<sup>※3</sup>化粧水に仕上げました。<br>
-	<small style="font-size: 1.6rem; text-align: left; line-height:3; color:#fff ;width: 100%; display: block;">※1：年齢を感じさせない肌のこと&emsp;※2：角層まで&emsp;※3：年齢肌に応じたケアのこと</small>
+	<small style="font-size: 1.6rem; text-align: left; line-height:3; color:#fff ;width: 100%; display: block;">※1：年齢を感じさせない肌のこと&emsp;※2：角層まで&emsp;※3：年齢に応じた肌ケアのこと</small>
 </p>
 <figure class="premium-fl-sec2-pic">
 <img src="<?php echo( get_stylesheet_directory_uri() ); ?>/images/cosme/karahashimikiko.jpg" width="100%" alt="唐橋 美紀子">
@@ -79,7 +79,7 @@ Template Name: premium-fl
 <img src="<?php echo( get_stylesheet_directory_uri() ); ?>/images/premium-fl/premium-fl_image03.jpg" width="100%" alt="日本酒を90％に増量"><small style="text-align: left; line-height:1.5; color:#000;width: 100%; display: block;">画像はイメージです。</small></figure>
 </div>
 <div class="kodawari-box">
-<h3>美肌植物由来の成分を配合</h3>
+<h3>植物由来の成分を配合</h3>
 <p>米セラミド<sup>※9</sup>に加え、ウワウルシエキス<sup>※10</sup>・ザクロ果皮エキス<sup>※11</sup>・月桃葉エキス<sup>※12</sup>・紫根エキス<sup>※13</sup>・α-アルブチン<sup>※14</sup>・アセチルグルコサミン<sup>※15</sup>・
 ナイアシンアミド<sup>※16</sup>・グリシルグリシン<sup>※17</sup>など、配合成分の全てが乾燥によるくすみが気になる肌にうるおいを与え、年齢を重ねた肌をサポートします。
 </p>
@@ -121,7 +121,7 @@ Template Name: premium-fl
 <p>香料<br>不使用</p>
 </div>
 <div class="content">
-<p>着色料<br>不使用</p>
+<p>着色剤<br>不使用</p>
 </div>
 <div class="content">
 <p>防腐剤<br>不使用</p>
