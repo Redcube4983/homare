@@ -96,19 +96,19 @@ else:
 							</div>
 						</a>
 					</div>
-					<div class="swiper-slide slide-4">
-						<a href="<?php echo esc_url( home_url( 'beauty' ) ); ?>">
+					<!-- <div class="swiper-slide slide-4">
+						<a href="</?php echo esc_url( home_url( 'beauty' ) ); ?>">
 							<img data-sizes="(min-width: 920px) 100vw, 100vw"
-								 data-src="<?php echo( get_stylesheet_directory_uri() ); ?>/images/top-slider/slider04.jpg" data-srcset="<?php echo( get_stylesheet_directory_uri() ); ?>/images/top-slider/slider04sp.jpg 920w
-							,<?php echo( get_stylesheet_directory_uri() ); ?>/images/top-slider/slider04.jpg 1200w" class="slider-img swiper-lazy">
+								 data-src="</?php echo( get_stylesheet_directory_uri() ); ?>/images/top-slider/slider04.jpg" data-srcset="</?php echo( get_stylesheet_directory_uri() ); ?>/images/top-slider/slider04sp.jpg 920w
+							,</?php echo( get_stylesheet_directory_uri() ); ?>/images/top-slider/slider04.jpg 1200w" class="slider-img swiper-lazy">
 							<div class="swiper-lazy-preloader"></div>
 							<div class="slider-inner">
-								<span class="slider-logo"><img src="<?php echo( get_stylesheet_directory_uri() ); ?>/images/logo2.svg"></span>
+								<span class="slider-logo"><img src="</?php echo( get_stylesheet_directory_uri() ); ?>/images/logo2.svg"></span>
 								<span class="slider-text">たくさんあります。<br>日本酒の健康メリット。</span>
 							</div>
 						</a>
-					</div>
-					<div class="swiper-slide slide-5">
+					</div> -->
+					<div class="swiper-slide slide-4">
 						<a href="<?php echo esc_url( home_url( 'unreian' ) ); ?>">
 							<img data-sizes="(min-width: 920px) 100vw, 100vw"
 								 data-src="<?php echo( get_stylesheet_directory_uri() ); ?>/images/top-slider/slider05.jpg" data-srcset="<?php echo( get_stylesheet_directory_uri() ); ?>/images/top-slider/slider05sp.jpg 920w
